@@ -116,10 +116,10 @@ Bu hedefler tahmindir; 20 video sonra kanalın kendi medyanına göre yeniden ya
 
 ## 9. Kanal sahibinden beklenenler
 
-- [ ] Seslendirme kararı: kendi sesiniz mi, Türkçe TTS mi? (`kanal-ses-tasarim` seçenekleri araştıracak)
-- [ ] İlk 12 video listesinin onayı (değiştirmek istediğiniz var mı?)
-- [ ] Kanal açıklaması ve anahtar kelimelerin güncellenmesi (mizah konumlandırmasına göre önerildi)
-- [ ] YouTube Studio'da telefon doğrulaması ve ülke = Türkiye
+- [x] Seslendirme kararı: **yapay zeka seslendirme** (26 Kasım 2026). Hangi servis/ses: `kanal-ses-tasarim` araştırıyor. Gerçek bir kişinin sesi asla klonlanmaz.
+- [x] İlk 12 video listesi: kanal sahibi Genel Müdür'e bıraktı, plan geçerli (26 Kasım 2026)
+- [x] Kanal açıklaması güncellendi (kanal sahibi, 26 Kasım 2026)
+- [x] YouTube Studio'da telefon doğrulaması ve ülke = Türkiye yapıldı (kanal sahibi, 26 Kasım 2026)
 - [ ] İlk videolar yayınlandıktan sonra Studio'dan Analytics dışa aktarımı (`strategy/analytics/`)
 
 ---
@@ -129,3 +129,4 @@ Bu hedefler tahmindir; 20 video sonra kanalın kendi medyanına göre yeniden ya
 | Tarih | Karar | Gerekçe |
 |---|---|---|
 | 2026-11-26 | Strateji v1: 5 sütun, 3 seri, ilk 30 gün haftada 5 video, A/B saat testi | 01, 03, 04 araştırma raporları |
+| 2026-11-26 | Seslendirme yapay zeka ile yapılacak; ilk 12 video listesi onaylandı | Kanal sahibinin kararı |
