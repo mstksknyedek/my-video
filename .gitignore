@@ -8,3 +8,5 @@ out
 
 # Real SFX ships its 78 CC0 UI sounds in a vendored node_modules folder; keep it.
 !.agents/skills/real-sfx/vendor/node_modules/
+# Real SFX's sound index holds this computer's paths; rebuilt by scripts/setup_sounds.py.
+.agents/skills/real-sfx/library_index.json
