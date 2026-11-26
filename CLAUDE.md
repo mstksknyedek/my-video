@@ -28,3 +28,15 @@ In a Remotion composition the frame of every animation is already known, so plac
 detecting moments with Real SFX: copy the chosen file into `public/sfx/` (`staticFile()` only reads `public/`) and
 use `<Sequence from={frame}><Audio src={staticFile("sfx/<file>")} /></Sequence>`.
 Real SFX is for videos that were rendered or recorded outside this project.
+
+## Marketing, social media and design skills
+
+Official skills from Anthropic (Apache-2.0), installed under `.agents/skills/`:
+content-creation, campaign-plan, competitive-brief, brand-review, seo-audit, performance-report,
+social-content-engine, data-visualization, canvas-design, algorithmic-art, theme-factory.
+
+- Only the skill folders were installed, not their plugins' connectors (Slack, Canva, HubSpot, ...).
+  Without connectors they produce drafts, calendars and briefs for manual posting; nothing is published.
+- `social-content-engine` hands finished campaigns to a `canva-creator` skill that is not installed.
+- The owner's voice lives in two files: `.agents/shared/voice-profile.md` (marketing skills) and
+  `youtube/voice.md` (yt- skills). Keep them consistent when either changes.
