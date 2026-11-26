@@ -4,6 +4,7 @@ import { Logo } from "./HelloWorld/Logo";
 import { Title } from "./HelloWorld/Title";
 import { KisacasiShort } from "./kisacasi/KisacasiShort";
 import { KarakterOnizleme } from "./kisacasi/karakterler/KarakterOnizleme";
+import { MesajEkraniOnizleme } from "./kisacasi/MesajEkraniOnizleme";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -23,6 +24,14 @@ export const RemotionRoot: React.FC = () => {
           id="KarakterOnizleme"
           component={KarakterOnizleme}
           durationInFrames={180}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="AileGrubuAnimatik"
+          component={MesajEkraniOnizleme}
+          durationInFrames={780}
           fps={30}
           width={1080}
           height={1920}

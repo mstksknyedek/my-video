@@ -66,7 +66,7 @@ Kaynaklar: `strategy/research/04-konular.md` §1.2 (karakter tarifleri), `strate
 - Ses: orta yaş erkek, tok, yavaş, aşırı kibar ("kardeşim"i uzatır). Gerçek bir kişinin sesi klonlanmaz.
 - Gereken parçalar: `ajandaAcik`, kapıdan eğilme pozu, kafasız şaka için kafa ayrı katman.
 
-## Nermin Teyze — rehber notu, çizim sonra (yayın planında 1. video, öncelikli)
+## Nermin Teyze — rehber notu (2026-11-26, ilk not; çizildi, aşağıya bakın)
 
 - 04-konular §1.2: yuvarlak yüz, topuz saç, kalın çerçeveli gözlük, mavi hırka, telefonu yüzüne çok yakın tutar.
 - Öneri: insan karakter ama böceklerle aynı dil: daire yüz (ten rengi tek düz renk), topuz = ikinci daire,
@@ -74,6 +74,49 @@ Kaynaklar: `strategy/research/04-konular.md` §1.2 (karakter tarifleri), `strate
   Ekranın çoğu sahte mesajlaşma arayüzü olacağından karakter çoğunlukla göğüs çekimi (büst) yeter.
 - İfadeler aynı 4'lü + "telefona kısarak bakma" (gözlük burna kayar) ve "sesli mesaj kaydı" (telefon ağza).
 - Ses: sevecen, yüksek enerjili, cümleleri uzun ve kesintisiz, "kızım/oğlum" hitabı. Alay değil sevgi tonu.
+
+## Nermin Teyze — çizildi (2026-11-26): `src/kisacasi/karakterler/NerminTeyze.tsx`
+
+- **Props:** `size`, `ifade`, `konusuyor`, `telefonuYaklastiriyor` (boolean ya da 0-1 sayı), isteğe bağlı `yon`,
+  `kirpmaGecikmesi`. `true` verilirse bulunduğu `<Sequence>`'in ilk 10 karesinde hafif taşmalı (overshoot) eğriyle yaklaşır;
+  sahne kendisi sürmek isterse `interpolate` ile 0-1 sayı verilir (önizlemede ve animatikte böyle).
+- **Kadraj:** göğüs çekimi (büst). 600x600 viewBox; hırka alttan y=600'e kadar iner ve orada kesilir (clipPath),
+  böylece karakter kadrajın alt kenarına oturur. Böceklerin zemin çizgisi y=540; Nermin'i onlarla aynı sahneye koyarken
+  60 px aşağı kaydır. Yuvarlak "görüntülü arama" çerçevesinde boyut ≈ çerçeve çapı x 1,45, sol -0,22, üst -0,10.
+- **Görünüş ve oran:** yüz r=128 (ten #F6C29A), gri-kahve topuz (#A3938A, r=60) + kırmızı toka; kalın siyah yuvarlak
+  gözlük (cam r=46, çerçeve 12 px) ve **sarı noktalı gözlük zinciri**; inci küpe ve inci kolye; mavi hırka (#1E3FAE),
+  krem bluz, sarı düğmeler, omuzda örgü çizgileri. Telefon: arkası bize dönük **kırmızı kılıf + sarı çiçek çıkartması**
+  (seri tanıma işareti), eli telefonun arkasını kavrar. Ekran ışığı yüzün telefon tarafında açık mavi bir leke.
+- **İfadeler (aynı 4'lü):** mutlu = **ışıl ışıl kapalı yay gözler** + gülme çizgileri + koyu yanak (göz kırpma bu ifadede
+  görünmez, bilerek); şaşkın = gözler %16 büyük, "O" ağız, **gözlük 28 px burnun ucuna kayar**, topuz üstünde 4 şok çizgisi;
+  sinirli = çatık gri kaşlar + şakakta **kırmızı** öfke işareti; üzgün = iç uçlar yukarı kaş, ters kavis ağız, gözyaşı.
+  Senaryo 03'teki adlar: `isil` = mutlu, `sitem` = sinirli, `saskin` = şaşkın, `bekliyor` ≈ üzgün (yüz düşer).
+- **Telefonu yaklaştırma:** telefon (470,318) → (414,236), ölçek 1 → 1,22, kafa 5° geriye ve 10 px geri; gözler
+  %45 kısılır, kaşlar çatılır, gözlük 16 px kayar, telefon 2,2 Hz'de hafif titrer (kısarak okuma). Telefon sağ camın
+  yarısını kapatır ama ağız açıkta kalır (konuşma okunabilsin diye; ilk denemede 1,35 ölçek ağzı kapatıyordu).
+- **Ses tonu:** değişmedi (yukarıdaki not). İmza: "Gruba atıyorum, herkes görsün!" + gönder tuşuna kararlı basış.
+- **Ton kuralı:** sevecen; yaşı gösteren işaretler (gülme çizgileri, gözlük zinciri, inci) şefkatli ayrıntı, karikatürize
+  edilmiş kusur değil (kırışık yüz, takma diş, kambur yok). Kural denetimi: "yaşlılarla alay aşağılamaya dönmemeli".
+- **Eksik (sonraki):** sesli mesaj pozu (telefon ağza), dev başparmakla basma (şimdilik `GrupMenusu`'nda düğme
+  basılma animasyonu var, el yok), ifade geçişlerinde ara kare.
+
+## Sahte mesajlaşma ekranı — çizildi (2026-11-26): `src/kisacasi/MesajEkrani.tsx`
+
+- Dışa açılanlar: `MesajEkrani` (grup sohbeti), `BildirimYigini` (kilit ekranı + yığılan bildirimler),
+  `GrupMenusu` (küçük gri "Üyeleri çıkar" + dev kırmızı "GRUPTAN ÇIK"), `YuvarlakCerceve` (köşedeki karakter çerçevesi,
+  `karartma` ile "pıt" diye kararır), `GunaydinGorseli` (gül, çayKedi, simliCay), `TelefonGovdesi`.
+- Mesaj listesi tek akış: `metin`, `gorsel`, `sistem`, `yaziyor`, `goruldu` öğeleri; her biri `kare` (girer) ve
+  isteğe bağlı `bitis` (çıkar). Yeni öğe giriş çubuğunun altından kayıp yığını yukarı iter; yükseklikler satır kırma
+  ile önceden hesaplanır (DOM ölçümü yok, render kararlı). `yazamazKaresi` = "Bu gruba mesaj gönderemezsiniz.",
+  `titresim` = telefon titrer.
+- **Özgünlük kuralları (kural denetimi 26.11):** yeşil yok (başlık mavi, gönder düğmesi kırmızı kare + ok), desenli
+  duvar kâğıdı yok (düz krem kâğıt + kanalın ince kâğıt dokusu), balon kuyruğu yok (yuvarlak köşe + kalın kontur +
+  sert alt gölge), tik yok (yerine "göz + Görüldü: N kişi" hapı), "son görülme" yok (başlıkta yalnızca "N kişi"),
+  logo ve uygulama adı yok. Kilit ekranı duvar kâğıdı fotoğraf değil, kanalın yırtık şerit kolajı.
+- Günaydın görselleri kendi SVG çizimimiz; yazılar yalnızca "Günaydın / Mutlu Sabahlar / Güzel Bir Gün Dilerim".
+  Dinî tebrik yok.
+- Senaryo 03'ün animatiği: `src/kisacasi/MesajEkraniOnizleme.tsx` (senaryodaki saniyelerle; ses/altyazı yok,
+  Root'a eklenmedi).
 
 ## Bulgular günlüğü
 
@@ -86,3 +129,13 @@ Kaynaklar: `strategy/research/04-konular.md` §1.2 (karakter tarifleri), `strate
 - **2026-11-26** — Senaryo 01, Kazım için bugünkü bileşende olmayan durumlar istiyor: tek kaş kaldırma,
   yanak şişirip morarma, bükük antenin yavaşça düşmesi, kameraya dönük kapak pozu. Sonraki sürümde prop olarak
   eklenecek (bkz. rapor). Kaynak: `strategy/senaryolar/01-ev-arkadasi-araniyor.md` satır 29, 33, 46.
+- **2026-11-26** — Nermin Teyze ve mesaj ekranı çizildi. KarakterOnizleme kare 20 ve 95'te, animatik kare 30, 44, 118,
+  200, 320, 345, 450, 560, 710, 730'da render edilip incelendi. Bulunan ve düzeltilen hatalar: yakın pozda telefon ağzı
+  kapatıyordu (ölçek 1,35 → 1,22); kol kadraj altına taşıp etiketi örtüyordu (clipPath); ekran ışığı yüzü iki tonlu
+  gösteriyordu (opaklık 0,28 → 0,16); yeni mesaj bir öncekinin üstüne biniyordu (alttan kayarak giriş); kilit
+  ekranında giren bildirim saatin üstünden geçiyordu (yerinde büyüyerek giriş, 3 açık kart + sıkışık yığın).
+  Kaynak: kendi render'larımız.
+- **2026-11-26** — Aynı sayfada birden çok SVG karakter olunca `clipPath` kimlikleri çakışabilir; Nermin'de React
+  `useId` (harf-rakam dışı karakterler temizlenerek) kullanıldı. Yeni karakterlerde clipPath/mask gerekiyorsa aynı yol.
+- **2026-11-26** — 150 px'te (önizleme alt satırı) Nermin'in 4 ifadesi ayırt ediliyor; en zayıfı sinirli/üzgün farkı
+  (ikisinde de gözler açık, fark kaşta ve öfke işaretinde). Kaynak: KarakterOnizleme kare 20.
