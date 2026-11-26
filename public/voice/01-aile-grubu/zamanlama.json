@@ -1,0 +1,315 @@
+[
+  {
+    "dosya": "voice/01-aile-grubu/01-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Hayırlı sabahlar ailem!",
+    "sure": 1.824,
+    "kelimeler": [
+      {
+        "kelime": "Hayırlı",
+        "baslangic": 0.0,
+        "bitis": 0.634
+      },
+      {
+        "kelime": "sabahlar",
+        "baslangic": 0.634,
+        "bitis": 1.348
+      },
+      {
+        "kelime": "ailem!",
+        "baslangic": 1.348,
+        "bitis": 1.824
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-aile-grubu/02-anlatici.mp3",
+    "kim": "anlatici",
+    "metin": "Saat, altıyı on iki geçiyor.",
+    "sure": 1.968,
+    "kelimeler": [
+      {
+        "kelime": "Saat,",
+        "baslangic": 0.0,
+        "bitis": 0.364
+      },
+      {
+        "kelime": "altıyı",
+        "baslangic": 0.364,
+        "bitis": 0.875
+      },
+      {
+        "kelime": "on",
+        "baslangic": 0.875,
+        "bitis": 1.093
+      },
+      {
+        "kelime": "iki",
+        "baslangic": 1.093,
+        "bitis": 1.385
+      },
+      {
+        "kelime": "geçiyor.",
+        "baslangic": 1.385,
+        "bitis": 1.968
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-aile-grubu/03-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Gül attım. Kedi attım. Simli çay attım.",
+    "sure": 3.216,
+    "kelimeler": [
+      {
+        "kelime": "Gül",
+        "baslangic": 0.0,
+        "bitis": 0.348
+      },
+      {
+        "kelime": "attım.",
+        "baslangic": 0.348,
+        "bitis": 0.869
+      },
+      {
+        "kelime": "Kedi",
+        "baslangic": 0.869,
+        "bitis": 1.304
+      },
+      {
+        "kelime": "attım.",
+        "baslangic": 1.304,
+        "bitis": 1.825
+      },
+      {
+        "kelime": "Simli",
+        "baslangic": 1.825,
+        "bitis": 2.347
+      },
+      {
+        "kelime": "çay",
+        "baslangic": 2.347,
+        "bitis": 2.694
+      },
+      {
+        "kelime": "attım.",
+        "baslangic": 2.694,
+        "bitis": 3.216
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-aile-grubu/04-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "On iki kişi görmüş. Kimse yazmamış.",
+    "sure": 3.216,
+    "kelimeler": [
+      {
+        "kelime": "On",
+        "baslangic": 0.0,
+        "bitis": 0.284
+      },
+      {
+        "kelime": "iki",
+        "baslangic": 0.284,
+        "bitis": 0.662
+      },
+      {
+        "kelime": "kişi",
+        "baslangic": 0.662,
+        "bitis": 1.135
+      },
+      {
+        "kelime": "görmüş.",
+        "baslangic": 1.135,
+        "bitis": 1.797
+      },
+      {
+        "kelime": "Kimse",
+        "baslangic": 1.797,
+        "bitis": 2.365
+      },
+      {
+        "kelime": "yazmamış.",
+        "baslangic": 2.365,
+        "bitis": 3.216
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-aile-grubu/05-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Görüyorsunuz ama yazmıyorsunuz!",
+    "sure": 2.376,
+    "kelimeler": [
+      {
+        "kelime": "Görüyorsunuz",
+        "baslangic": 0.0,
+        "bitis": 0.996
+      },
+      {
+        "kelime": "ama",
+        "baslangic": 0.996,
+        "bitis": 1.303
+      },
+      {
+        "kelime": "yazmıyorsunuz!",
+        "baslangic": 1.303,
+        "bitis": 2.376
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-aile-grubu/06-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Yazıyor... yazıyor... sustu.",
+    "sure": 2.736,
+    "kelimeler": [
+      {
+        "kelime": "Yazıyor...",
+        "baslangic": 0.0,
+        "bitis": 0.995
+      },
+      {
+        "kelime": "yazıyor...",
+        "baslangic": 0.995,
+        "bitis": 1.99
+      },
+      {
+        "kelime": "sustu.",
+        "baslangic": 1.99,
+        "bitis": 2.736
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-aile-grubu/07-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Tamam! Hepinizi gruptan çıkarıyorum!",
+    "sure": 2.496,
+    "kelimeler": [
+      {
+        "kelime": "Tamam!",
+        "baslangic": 0.0,
+        "bitis": 0.428
+      },
+      {
+        "kelime": "Hepinizi",
+        "baslangic": 0.428,
+        "bitis": 1.07
+      },
+      {
+        "kelime": "gruptan",
+        "baslangic": 1.07,
+        "bitis": 1.64
+      },
+      {
+        "kelime": "çıkarıyorum!",
+        "baslangic": 1.64,
+        "bitis": 2.496
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-aile-grubu/08-anlatici.mp3",
+    "kim": "anlatici",
+    "metin": "Nermin gruptan ayrıldı.",
+    "sure": 1.728,
+    "kelimeler": [
+      {
+        "kelime": "Nermin",
+        "baslangic": 0.0,
+        "bitis": 0.526
+      },
+      {
+        "kelime": "gruptan",
+        "baslangic": 0.526,
+        "bitis": 1.127
+      },
+      {
+        "kelime": "ayrıldı.",
+        "baslangic": 1.127,
+        "bitis": 1.728
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-aile-grubu/09-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Aaa. Ben nereye gittim?",
+    "sure": 2.256,
+    "kelimeler": [
+      {
+        "kelime": "Aaa.",
+        "baslangic": 0.0,
+        "bitis": 0.41
+      },
+      {
+        "kelime": "Ben",
+        "baslangic": 0.41,
+        "bitis": 0.82
+      },
+      {
+        "kelime": "nereye",
+        "baslangic": 0.82,
+        "bitis": 1.538
+      },
+      {
+        "kelime": "gittim?",
+        "baslangic": 1.538,
+        "bitis": 2.256
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-aile-grubu/10-anlatici.mp3",
+    "kim": "anlatici",
+    "metin": "Selin, Nermin'i ekledi.",
+    "sure": 1.656,
+    "kelimeler": [
+      {
+        "kelime": "Selin,",
+        "baslangic": 0.0,
+        "bitis": 0.452
+      },
+      {
+        "kelime": "Nermin'i",
+        "baslangic": 0.452,
+        "bitis": 1.129
+      },
+      {
+        "kelime": "ekledi.",
+        "baslangic": 1.129,
+        "bitis": 1.656
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-aile-grubu/11-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Gruba atıyorum, herkes görsün!",
+    "sure": 2.064,
+    "kelimeler": [
+      {
+        "kelime": "Gruba",
+        "baslangic": 0.0,
+        "bitis": 0.427
+      },
+      {
+        "kelime": "atıyorum,",
+        "baslangic": 0.427,
+        "bitis": 1.068
+      },
+      {
+        "kelime": "herkes",
+        "baslangic": 1.068,
+        "bitis": 1.566
+      },
+      {
+        "kelime": "görsün!",
+        "baslangic": 1.566,
+        "bitis": 2.064
+      }
+    ]
+  }
+]
