@@ -1,5 +1,7 @@
 # 03 · Günaydın Çiçekleri Saat 06.12 (Nermin Teyze Online #1)
 
+> **Genel Müdür notu (26.11.2026):** Yayın sırası ve başlık STRATEJI v1.1 §5'e göre güncellendi: #1 · Pzt 7 Aralık 2026 · 19:30 · "Aile grubu, sabah 06.12 🌹". Aşağıdaki eski tarih/başlık geçersizdir.
+
 Hazırlanma: 26 Kasım 2026 · Yazan: kanal-senarist · Durum: TASLAK (sırada kanal-retention, kanal-kural-denetcisi, sonra kanal sahibi onayı)
 Yayın planı: Video 3 · Cum 11 Aralık 2026 · 20:30 (STRATEJI §5) · Sütun: Aile, Akraba, Komşu · Seri: Nermin Teyze Online
 

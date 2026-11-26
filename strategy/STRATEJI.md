@@ -43,7 +43,7 @@ Seriler geri dönen izleyici yaratır. Her serinin kendi oynatma listesi olacak.
 | Seri | Karakter | Biçim | İmza cümlesi | Sıklık |
 |---|---|---|---|---|
 | **Kiracı Karınca** | Kazım (kırmızı karınca, sarı sırt çantası); Hamdi Bey (ev sahibi hamamböceği), Emlakçı Örümcek Ercan, ev arkadaşı Ağustos Böceği Cengiz | Kira/geçim derdi karınca ölçeğinde | "Kısacası… taşınıyoruz." | Haftada 1 |
-| **Uğur Hoca Anlatıyor** | Uğur Hoca (gözlüklü uğur böceği öğretmen) | 20-30 sn'lik gerçek böcek bilgisi dersi; ekranda kaynak | "Kısacası çocuklar… Ders bitti!" | Haftada 1 |
+| **Uğur Hoca Anlatıyor** | Uğur Hoca (gözlüklü uğur böceği öğretmen) | 20-30 sn'lik gerçek böcek bilgisi dersi; ekranda kaynak | "Kısacası millet… Ders bitti!" | Haftada 1 |
 | **Nermin Teyze Online** | Nermin Teyze (topuz, gözlük, telefon) | Aile WhatsApp grubu ve bayram/düğün sahneleri | "Gruba atıyorum, herkes görsün!" | Haftada 1 |
 
 Kalan videolar tekil (seri dışı) fikirlerdir. Karakter rehberi: `bilgi/karakterler.md` (kanal-karakter-animasyon tutar).
@@ -145,4 +145,5 @@ Bu hedefler tahmindir; 20 video sonra kanalın kendi medyanına göre yeniden ya
 |---|---|---|
 | 2026-11-26 | Strateji v1: 5 sütun, 3 seri, ilk 30 gün haftada 5 video, A/B saat testi | 01, 03, 04 araştırma raporları |
 | 2026-11-26 | Seslendirme yapay zeka ile yapılacak; ilk 12 video listesi onaylandı | Kanal sahibinin kararı |
+| 2026-11-26 | Uğur Hoca imzası "Kısacası millet… Ders bitti!" oldu; derslerde bir an yetişkin böcekler gösterilir, tahtada "Akşam Kursu" yazar. Kapanış ekranı yerine döngü + logo rozeti. "whatsapp" yalnızca tek bir etikette | Kural denetimi: "çocuklar" hitabı + sınıf, çocuklara özel sayılma riskini artırıyor; kapanış ekranı döngüyü bozuyor |
 | 2026-11-26 | v1.1: Aile sütunu %30'a çıktı, ekonomi %10'a indi; ilk 12 video yeniden sıralandı (3 yeni: tupper, karınca olarak doğdun, düğün takısı); başlıklar ~30 karakter ve hashtag'siz | 02 Veri: ekonomi mizahı medyanı ~2,5B, aile/düğün/anne/böcek ve konuşan eşyalar çok daha güçlü; kısa başlıklar daha iyi |

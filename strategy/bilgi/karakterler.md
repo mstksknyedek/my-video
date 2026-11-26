@@ -55,7 +55,7 @@ Kaynaklar: `strategy/research/04-konular.md` §1.2 (karakter tarifleri), `strate
   Bıyık gülünce/konuşunca kalkar, üzülünce düşer; şaşırınca gözlük 8 px zıplar.
 - **Kişilik ve ses tonu:** emekliliği yaklaşmış, sevecen ama titiz bir öğretmen. Orta-ileri yaş, net diksiyon,
   cümle sonunda kısa duraklama ("Bugünkü dersimiz…"). Bilgiyi ciddi verir, benzetmede göz kırpar.
-  İmza: "Kısacası çocuklar… [özet]. Ders bitti!" + zil. Ekranda her bölüm "Kaynak: …" yazısı.
+  İmza: "Kısacası millet… [özet]. Ders bitti!" (26.11.2026 kural denetimi kararı: "çocuklar" hitabı kullanılmaz; sınıfta bir an yetişkin böcekler görünür, tahtada "Akşam Kursu") + zil. Ekranda her bölüm "Kaynak: …" yazısı.
 
 ## Hamdi Bey (ev sahibi hamamböceği) — rehber notu, çizim sonra
 

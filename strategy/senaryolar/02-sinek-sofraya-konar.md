@@ -1,5 +1,7 @@
 # 02 · Sinek Neden Sofraya Konar? (Uğur Hoca Anlatıyor #1)
 
+> **Genel Müdür notu (26.11.2026):** Yayın sırası ve başlık STRATEJI v1.1 §5'e göre güncellendi: #2 · Çar 9 Aralık 2026 · 12:30 · "Sinek neden sofraya konar? 🪰" · imza artık "Kısacası millet". Aşağıdaki eski tarih/başlık geçersizdir.
+
 Hazırlanma: 26 Kasım 2026 · Yazan: kanal-senarist · Durum: TASLAK (sırada **kanal-dogrulayici**, kanal-retention, kanal-kural-denetcisi, sonra kanal sahibi onayı)
 Yayın planı: Video 2 · Çar 9 Aralık 2026 · 12:30 (STRATEJI §5) · Sütun: Böcek Dünyası · Seri: Uğur Hoca Anlatıyor
 
@@ -7,7 +9,7 @@ Yayın planı: Video 2 · Çar 9 Aralık 2026 · 12:30 (STRATEJI §5) · Sütun:
 
 - **Başlık (STRATEJI §5):** Sinek neden sofraya konar? Cevap iğrenç 🪰
 - **Tek cümlelik fikir:** Uğur Hoca, karasineğin ekmeğe konduğu an aslında ayaklarıyla tadına baktığını, sonra da tükürüğüyle yumuşatıp emdiğini, her tabağı tadan sofra misafirine benzeterek anlatıyor.
-- **Bu videoyu öbürlerinden ayıran:** Serinin ilk dersi; Uğur Hoca'yı, kara tahtayı, "Kısacası çocuklar… Ders bitti!" imzasını ve zil sesini tanıtıyor. Başlıktaki "iğrenç" vaadi 2. bilgiyle (tükürük) karşılanıyor.
+- **Bu videoyu öbürlerinden ayıran:** Serinin ilk dersi; Uğur Hoca'yı, kara tahtayı, "Kısacası millet… Ders bitti!" imzasını ve zil sesini tanıtıyor. Başlıktaki "iğrenç" vaadi 2. bilgiyle (tükürük) karşılanıyor.
 
 ## 2. Kanca (ilk 1 saniye)
 
@@ -28,7 +30,7 @@ Hedef süre: **~28 sn** · Seslendirme toplamı **58 kelime** (2,5 kelime/sn ile
 | 6 | 14,6–16,6 | Uğur Hoca gözlüğünü indirir, ciddi bakar. Arka plan kırmızıya döner. | **Uğur Hoca:** Ama dahası var. Sinek çiğneyemez. | `DAHASI VAR…` | `riser` (14,6–16,4) |
 | 7 | 16,6–21,2 | Tahtada üç adımlı şema, her adım belirir: 1) sinek ekmeğe mavi bir damla bırakır, 2) ekmek noktası eriyip gölcük olur, 3) sinek hortumunu pipet gibi daldırıp çeker. Uğur Hoca tiksintiyle yüzünü buruşturur. | **Uğur Hoca:** Önce yemeğin üstüne tükürük döker. Yumuşatır. Sonra pipetle çeker gibi emer. | `1. TÜKÜRÜK` · `2. ERİT` · `3. İÇ` · üstte büyük: `ÇİĞNEMEZ, ERİTİR` · alt köşe küçük: `Kaynak: Penn State Extension` | `pop` (16,8) · `pop` (18,0) · **YENİ** `slurp` (19,4) |
 | 8 | 21,2–22,0 | **KAPAK KARESİ** (sabit, 0,8 sn; altyazı kapalı). Bkz. §5. | — (sessiz) | `SİNEK AYAĞIYLA TADAR` | `logo-hit` (21,2, ses 0,5) |
-| 9 | 22,0–27,0 | Uğur Hoca ekmeğin üstüne fileli sofra kapağı kapatır, tahtaya "DERS BİTTİ" yazar, çubuğu kaldırır. Zil çalar. | **Uğur Hoca:** Kısacası çocuklar: sinek sofraya bastıysa, tadına bakmıştır. Ekmeği kapatın. Ders bitti! | `KISACASI: EKMEĞİ KAPATIN` → `DERS BİTTİ!` | `hit` (24,6, kapak) · **YENİ** `okul-zili` (26,2) (yoksa `success`) |
+| 9 | 22,0–27,0 | Uğur Hoca ekmeğin üstüne fileli sofra kapağı kapatır, tahtaya "DERS BİTTİ" yazar, çubuğu kaldırır. Zil çalar. | **Uğur Hoca:** Kısacası millet: sinek sofraya bastıysa, tadına bakmıştır. Ekmeği kapatın. Ders bitti! | `KISACASI: EKMEĞİ KAPATIN` → `DERS BİTTİ!` | `hit` (24,6, kapak) · **YENİ** `okul-zili` (26,2) (yoksa `success`) |
 | 10 | 27,0–28,2 | Uğur Hoca sırtını döner, çantasını toplar. Arkasında sinek kapağın altından sızıp ekmeğe yeniden konar; kadraj 1. sahnedeki ekmek yakın planına zoom yapar. | — | — | `soft-whoosh` (27,8, sinek) → döngü |
 
 ## 4. Döngü tasarımı
@@ -52,7 +54,7 @@ Hedef süre: **~28 sn** · Seslendirme toplamı **58 kelime** (2,5 kelime/sn ile
 [10,4] Sofrada her tabağı | tek tek tadan misafir gibi. | Sadece… ayakla. |
 [14,6] Ama dahası var. | Sinek çiğneyemez. |
 [16,6] Önce yemeğin üstüne | tükürük döker. | Yumuşatır. | Sonra pipetle çeker gibi emer. |
-[22,0] Kısacası çocuklar: | sinek sofraya bastıysa, | tadına bakmıştır. | Ekmeği kapatın. | Ders bitti! |
+[22,0] Kısacası millet: | sinek sofraya bastıysa, | tadına bakmıştır. | Ekmeği kapatın. | Ders bitti! |
 ```
 
 Sahne 3'teki "Hmm… tuzu az." balon yazısıdır, altyazıya girmez (seslendirmede yok).
@@ -66,7 +68,7 @@ UĞUR HOCA: Yani o ekmeğe bastıysa, tadına çoktan bakmış.
 UĞUR HOCA: Sofrada her tabağı tek tek tadan misafir gibi. Sadece... ayakla.
 UĞUR HOCA: Ama dahası var. Sinek çiğneyemez.
 UĞUR HOCA: Önce yemeğin üstüne tükürük döker. Yumuşatır. Sonra pipetle çeker gibi emer.
-UĞUR HOCA: Kısacası çocuklar: sinek sofraya bastıysa, tadına bakmıştır. Ekmeği kapatın. Ders bitti!
+UĞUR HOCA: Kısacası millet: sinek sofraya bastıysa, tadına bakmıştır. Ekmeği kapatın. Ders bitti!
 ```
 
 - **Ses yönü:** Orta yaş, net diksiyonlu, biraz teatral öğretmen sesi; "Ders bitti!" neşeli ve yüksek. "Yumuşatır." kelimesi tiksintiyle, yavaş. Gerçek bir öğretmenin/ünlünün sesi klonlanmaz.
