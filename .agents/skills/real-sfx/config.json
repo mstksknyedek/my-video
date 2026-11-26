@@ -1,0 +1,17 @@
+{
+  "libraries": [
+    {
+      "name": "main",
+      "path": "/home/user/my-video/sounds",
+      "tier": "main"
+    }
+  ],
+  "uisfx": {
+    "path": "vendor/node_modules/uisfx",
+    "default_pack": "studio"
+  },
+  "skip_dir_names": [
+    "_mister horse previews"
+  ],
+  "index_path": "library_index.json"
+}
