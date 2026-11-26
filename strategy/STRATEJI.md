@@ -85,7 +85,7 @@ Başlıklar 30 karakter civarında ve hashtag'siz; hashtag'ler yalnızca açıkl
 | # | Tarih / saat | Başlık | Açıklama ilk satırı | Hashtag'ler (açıklamada) | Ek etiketler | Senaryo |
 |---|---|---|---|---|---|---|
 | 1 | Pzt 7 Ara · 19:30 | Aile grubu, sabah 06.12 🌹 | Nermin Teyze aile grubunu yine sabah sabah çiçeğe boğdu. | #kısacası #ailegrubu #mizah | aile whatsapp grubu, günaydın mesajları, teyze, nermin teyze | yazılıyor |
-| 2 | Çar 9 Ara · 12:30 | Sinek neden sofraya konar? 🪰 | Uğur Hoca anlatıyor: sinekler tadı ayaklarıyla alır. | #kısacası #böcekler #bilgi | sinek, böcek bilgileri, ilginç bilgiler, uğur hoca | yazılıyor |
+| 2 | Çar 9 Ara · 12:30 | Sinek neden sofraya konar? 🪰 | Uğur Hoca anlatıyor: sinekler tadı ayaklarıyla da alır. | #kısacası #böcekler #bilgi | sinek, böcek bilgileri, ilginç bilgiler, uğur hoca | yazılıyor |
 | 3 | Cum 11 Ara · 20:30 | Annenin tupperi geri dönmeli | Annenin verdiği saklama kabı geri dönmezse ne olur? | #kısacası #türkannesi #mizah | türk annesi, saklama kabı, tupper, anne | sırada |
 | 4 | Cmt 12 Ara · 12:00 | Karınca olarak doğdun 🐜 | Bir karıncanın ilk günü: iş, yuva, şeker kırıntısı. | #kısacası #karınca #animasyon | karınca, böcek, karınca olarak doğdun, kazım | sırada |
 | 5 | Paz 13 Ara · 12:00 | Düğünde takı muhasebesi 💍 | Takı töreninde kim ne taktı, defter tutuluyor. | #kısacası #düğün #mizah | düğün, takı töreni, altın, düğün komik | sırada |

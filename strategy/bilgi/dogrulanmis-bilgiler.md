@@ -1,0 +1,40 @@
+# Doğrulanmış bilgiler (kanal-dogrulayici)
+
+Kurallar: Her kayıt tarihli ve kaynaklı. Eski kayıt silinmez; yanlış çıkan "GEÇERSİZ (tarih, neden)" diye işaretlenir.
+Kaynakların çoğu bu makineden açılamadı; doğrulama WebSearch özetlerine dayanır ("tam metin görülmedi" notu buna işaret eder).
+Durum etiketleri: DOĞRU · KISMEN · YANLIŞ · DOĞRULANAMADI.
+
+---
+
+## Sinekler (karasinek, *Musca domestica*)
+
+### S-01 · Karasinek ayaklarıyla (tarsus) tat alır — DOĞRU (2026-11-26)
+- Ön, orta ve arka bacak tarsusları hem erkekte hem dişide şekerli suyu sudan ayırt ediyor (hortum uzatma tepkisi, PER, ile ölçülmüş). En duyarlılar orta ve özellikle **ön** tarsuslar. Anten (arista) teması tepki doğurmadı.
+- Kaynak: Gunathunga, Muyizere & King (2025), *Entomologia Experimentalis et Applicata*, Kuzey Illinois Üniv. (NIU) — https://huskiecommons.lib.niu.edu/allfaculty-peerpub/1226 (özet; tam metin görülmedi)
+- Destek: Lewis, *Bulletin of Entomological Research* — *M. domestica* tarsuslarında çok sayıda kontak kemoreseptör var: https://www.cambridge.org/core/journals/bulletin-of-entomological-research/article/studies-concerning-the-uptake-of-contact-insecticides/E011CBB3644E653A9E6D3CAAF303355B · Tarihsel: "The Tarsal Chemoreceptor Response of the Housefly…" (Ann. Entomol. Soc. Am., Aralık 1935): https://scilit.com/publications/ac1af36397e46eaa2857a0c2c4ef5c0c (yalnızca künye görüldü)
+- Dikkat: NIU Newsroom haberi (Ekim 2023) iki **derleme** makalesini anlatıyor, karasineğe özgü 2025 deneyini değil: https://newsroom.niu.edu/feet-antennae-wings-its-all-a-matter-of-taste-for-insects-niu-researchers-say/ — "böcekler farklı vücut bölümleriyle tadar" genel bilgisi için uygun; karasinek iddiası için birincil kaynak 2025 makalesi.
+- Kanat konusunda kaynaklar tutarsız (doktora tezi "kanatla değil" diyor; makale kanadı da test etmiş, sonucu özetlerde net değil) → **kanatla tat iddiası kullanılmasın.**
+
+### S-02 · Sinek yalnızca ayakla tatmaz; hortum ucu (labellum) da tat organıdır — DOĞRU (2026-11-26)
+- Karasinekte: imidakloprid çalışması, tespitin hortum (labellum/farinks) temasıyla olduğunu, tarsus temasıyla olmadığını gösterdi → labellum kemoreseptörleri karasinekte de tat alıyor. Kaynak: "Use of the Proboscis Extension Response Assay to Evaluate the Mechanism of House Fly Behavioral Resistance to Imidacloprid" — https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10971017/
+- *Drosophila* (meyve sineği, karasinek değil): ön bacak tarsusunda ~28, orta ~21, arka ~22 tat duyargası; labellumda ~31; bacak tepkileri labellumdan farklı. Kaynak: Ling ve ark. (2014), *J Neurosci* — https://pmc.ncbi.nlm.nih.gov/articles/PMC4028494 . **Not:** Bu sayılar karasinek için kullanılmamalı.
+- PMC7125039 (Chen & Dahanukar, *Drosophila* tat derlemesi) labellum tat kıllarını anlatır, "28" sayısını içermez.
+
+### S-03 · Karasinek ısıramaz, çiğneyemez; ağız parçaları sıvı emmeye uygun (süngerimsi) — DOĞRU (2026-11-26)
+- Penn State Extension "House Flies" (güncelleme 19 Haz 2023): ağız parçaları sıvıyı sünger gibi almaya uyarlanmış, ısıramaz, yalnızca sıvı besin alabilir — https://extension.psu.edu/house-flies
+- Univ. of Kentucky: çiğneyici ağız parçaları yok — https://www.uky.edu/Ag/CritterFiles/casefile/insects/flies/houseflies/houseflies.htm
+- Britannica: süngerimsi/yalayıcı ağız, ısıramaz — https://www.britannica.com/animal/housefly
+- Labellum: oluklu, süngerimsi uç; sıvıyı kılcal etkiyle çeker (FSU mikroskopi): https://micro.magnet.fsu.edu/primer/techniques/fluorescence/gallery/flymouthlarge.html
+
+### S-04 · Katı yiyeceği geri çıkardığı tükürükle sıvılaştırıp emer — DOĞRU (2026-11-26)
+- Penn State Extension: tükürük yiyeceğin üstüne geri çıkarılır (regurgitate), katıyı sıvılaştırır, sonra hortumla süngerlenir; sinek sürekli tükürük salgıladığı için suya ihtiyaç duyar — https://extension.psu.edu/house-flies
+- FSU: enzimce zengin tükürük yiyeceği vücut dışında sıvıya sindirir — https://micro.magnet.fsu.edu/primer/techniques/phasegallery/houseflymouth.html
+- Missouri Extension: birçok yiyeceği sıvılaştırır — https://extension.missouri.edu/media/wysiwyg/Extensiondata/Pro/UrbanEntomology/House_fly_info.pdf
+- İfade önerisi: "tükürük döker / tükürükle eritir" doğru ve yumuşak; "kusar" ifadesi kaynaklarda "regurgitate" olarak geçer ama gereksiz sert.
+
+### S-05 · Karasineğin 6 bacağı vardır — DOĞRU (genel böcek anatomisi; tüm böcekler 3 çift bacaklı). (2026-11-26)
+
+### Kullanılmaması gerekenler (2026-11-26)
+- "Sinek ayağı insan dilinden X kat hassas" türü sayılar: kaynak bulunamadı → DOĞRULANAMADI.
+- "Sinek mikrop/hastalık taşır": Britannica ayaklarda milyonlarca mikroorganizma taşıyabileceğini söylüyor (https://www.britannica.com/animal/housefly), ama kanal kuralı gereği somut sağlık iddiası verilmez; kullanılacaksa ayrıca doğrulanmalı.
+- 04-konular'daki eski punchline "bastıysa yemişsin demektir": YANLIŞ çıkarım (tatmak ≠ yemek); senaryo 02'de zaten "tadına bakmış" olarak düzeltilmiş.
