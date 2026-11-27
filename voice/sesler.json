@@ -1,6 +1,11 @@
 {
   "_aciklama": "Karakter sesleri: Google Cloud Text-to-Speech, Chirp 3 HD (tr-TR). Kanal sahibi seçti, 26.11.2026. Anlatıcı Genel Müdür seçimi, değiştirilebilir.",
-  "nermin-teyze": "tr-TR-Chirp3-HD-Vindemiatrix",
+  "nermin-teyze": {
+    "ses": "tr-TR-Chirp3-HD-Vindemiatrix",
+    "perde": 0.817,
+    "tempo": 0.93,
+    "_not": "Kanal sahibi 27.11.2026'da yaşlandırılmış 3 numaralı tonu seçti (perde -3,5 yarım ton, %7 yavaş)."
+  },
   "ugur-hoca": "tr-TR-Chirp3-HD-Iapetus",
   "kazim": "tr-TR-Chirp3-HD-Puck",
   "hamdi-bey": "tr-TR-Chirp3-HD-Charon",

@@ -2,7 +2,7 @@
 """Generate a video's voiceover with Google Cloud Text-to-Speech (Chirp 3 HD, Turkish).
 
 Input: a JSON list of lines, each {"kim": "<character>", "metin": "<text>"}; characters are
-mapped to voices in voice/sesler.json. Output, in public/voice/<video>/:
+mapped to voices in voice/sesler.json (a voice name, or {ses, perde, tempo}). Output, in public/voice/<video>/:
   - NN-<character>.mp3 for every line
   - zamanlama.json: each line's file, duration and per-word timings
 Leading silence is trimmed from every file. Video 1 (01-aile-grubu) was made before this
@@ -68,13 +68,17 @@ def main():
         kim, metin = line["kim"], line["metin"]
         if kim not in voices:
             sys.exit(f"no voice for '{kim}' in voice/sesler.json")
+        cfg = voices[kim] if isinstance(voices[kim], dict) else {"ses": voices[kim]}
         f = out_dir / f"{i:02d}-{kim}.mp3"
         raw = out_dir / f"{i:02d}-{kim}.raw.mp3"
-        raw.write_bytes(synth(metin, voices[kim], line.get("hiz", 1.0)))
+        raw.write_bytes(synth(metin, cfg["ses"], line.get("hiz", 1.0)))
         # Chirp 3 HD files start with 0.1-0.7 s of silence; cut it (keep 50 ms) so word times line up.
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw), "-af",
-                        "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05",
-                        str(f)], check=True)
+        # A character may also set "perde" (pitch factor) and "tempo" to age or deepen the voice.
+        af = "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05"
+        if "perde" in cfg or "tempo" in cfg:
+            af = (f"rubberband=pitch={cfg.get('perde', 1.0)}:tempo={cfg.get('tempo', 1.0)}"
+                  f":formant=preserved,{af}")
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw), "-af", af, str(f)], check=True)
         raw.unlink()
         chars += len(metin)
         d = duration(f)
