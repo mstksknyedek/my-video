@@ -107,11 +107,11 @@ export const Anne: React.FC<Props> = ({
   const sagBas: Nokta = [480, 614];
   const sagNormalK = karis([566, 522], [584, 470], kld);
   const sagNormalE = karis([506, 414 - b * 2], [536, 310], kld);
-  const sagK = uc(kk, sagNormalK, [592, 500], [540, 596]);
-  const sagE = uc(kk, sagNormalE, [578, 352], [386, 548]);
+  const sagK = uc(kk, sagNormalK, [572, 500], [540, 596]);
+  const sagE = uc(kk, sagNormalE, [550, 360], [386, 548]);
   const solBas: Nokta = [120, 614];
-  const solK = elSalliyor && kk === 0 ? [30, 500] : uc(kk, [44, 566], [10, 510], [60, 596]);
-  const solE = elSalliyor && kk === 0 ? [84, 300] : uc(kk, [88, 484 - b * 2], [22, 352], [214, 548]);
+  const solK = elSalliyor && kk === 0 ? [30, 500] : uc(kk, [44, 566], [30, 510], [60, 596]);
+  const solE = elSalliyor && kk === 0 ? [84, 300] : uc(kk, [88, 484 - b * 2], [50, 360], [214, 548]);
   const sagYol = `M ${sagBas[0]} ${sagBas[1]} Q ${sagK[0]} ${sagK[1]} ${sagE[0]} ${sagE[1]}`;
   const solYol = `M ${solBas[0]} ${solBas[1]} Q ${solK[0]} ${solK[1]} ${solE[0]} ${solE[1]}`;
   const dalga = elSalliyor && kk === 0 ? Math.sin(sn * Math.PI * 2 * 2.6) * 22 : 0;

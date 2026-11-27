@@ -101,7 +101,7 @@
       "baslik": "Video 3 'Annenin kapları geri dönmez' montajı (Anne karakteri dahil)",
       "ajan": "general-purpose",
       "brif": "strategy/gorevler/05-kaplar-montaj.md",
-      "durum": "calisiyor",
+      "durum": "bitti",
       "baslangic": "2026-11-27T22:41:00Z",
       "son_isaret": "2026-11-27T22:41:00Z",
       "beklenen_ciktilar": [
@@ -110,7 +110,8 @@
         "out/video05-kaplar.mp4"
       ],
       "sonra": "Aynı anda en fazla 2 ağır iş kuralı: video06-montaj veya video07-montaj biterse başlat. Bitince tsc + eslint, kareleri incele, commit + push, MP4'ü kanal sahibine ilet.",
-      "not": "06 veya 07 bitince başlat (aynı anda en fazla 2 ağır iş)."
+      "not": "out/video05-kaplar.mp4 hazır (23,1 sn, -14,6 LUFS, -2,1 dBTP).",
+      "bitis": "2026-11-27T23:05:00Z"
     }
   ],
   "tetikleyici_kayitlari": [],
@@ -132,6 +133,7 @@
   "veri_bekleme": {
     "karar": "27-28.11.2026, kanal sahibi",
     "kural": "Yeni video senaryosu/montajı BAŞLATMA. Hazır videolar yayınlanana ve ilk veri gelene kadar bekle. Kanal sahibi 'yeni video' ya da 'devam' derse bu kural kalkar.",
-    "nobetci": "video05-montaj (Anne) bitince saat başı nöbetçi (trig_01VCssrZ1jX6prCJrPbJQsRn) KAPATILMALI; yeni iş başlayınca yeniden açılır."
+    "nobetci": "video05-montaj (Anne) bitince saat başı nöbetçi (trig_01VCssrZ1jX6prCJrPbJQsRn) KAPATILMALI; yeni iş başlayınca yeniden açılır.",
+    "not": "Tüm üretim işleri bitti (28.11.2026 02:05 TR). Saat başı nöbetçi ve tek seferlik uyandırmalar kapatıldı; yeni iş başlayınca nöbetçi yeniden açılır."
   }
 }

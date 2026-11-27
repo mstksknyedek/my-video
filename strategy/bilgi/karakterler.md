@@ -100,6 +100,20 @@ Kaynaklar: `strategy/research/04-konular.md` §1.2 (karakter tarifleri), `strate
 - **Eksik (sonraki):** sesli mesaj pozu (telefon ağza), dev başparmakla basma (şimdilik `GrupMenusu`'nda düğme
   basılma animasyonu var, el yok), ifade geçişlerinde ara kare.
 
+## Anne — çizildi (2026-11-27): `src/kisacasi/karakterler/Anne.tsx`
+
+- **Props:** `size`, `ifade`, `konusuyor`, isteğe bağlı `kepceSalliyor` (kepçe kolu ±18°, 2 Hz), `kucakliyor` (0 normal, 0,5 kollar iki yana açık,
+  1 kollar ortada kapanır; boolean = 1), `elSalliyor` (serbest el kalkar, el sallar), `yon`, `kirpmaGecikmesi`, `gozParlasi` (gözlerde 4 köşeli
+  yıldız), `kepceKaldir` (0-1, kepçe baş hizasına), `kepce` (false = kepçe gizli; kucaklarken kullanılır).
+- **Kadraj:** göğüs çekimi (büst) + iki kol, 600x600 viewBox; önlük ve bluz y=600'de kesilir (clipPath, `useId`). Nermin'le aynı zemin çizgisi mantığı.
+- **Görünüş:** yuvarlak yüz (ten #E8B48A, Nermin'den bir ton koyu), **kısa dalgalı koyu kahve saç** (#4A2A18) ve 4 yarım daireli kâkül, gözlük yok,
+  göz kenarında iki kısa kirpik, küçük altın halka küpe, mutluda hafif gülme çizgileri. **Kırmızı önlük** (krem puantiye, omuz askılı) üstünde **sarı bluz**;
+  kollar sarı. Elinde **mavi saplı çelik kepçe** (tanıma işareti).
+- **İfadeler:** aynı 4'lü. Mutlu = açık gözler + büyük parıltı + pembe yanak (Nermin'in kapalı yay gözünden bilerek ayrı); `gozParlasi` ile yıldız gözler.
+- **Ton:** cömert, hızlı, asla kızmaz; yaş işareti yalnızca hafif gülme çizgileri.
+- **Kullanım notu:** kapı boşluğunda `size` 700, kutusu y=1290'da biter. Kucaklarken `kepce={false}` ver.
+- **Eksik:** sinirli/üzgün ifadeler videoda hiç kullanılmadı, yalnızca önizlemeye bakılmadı; kollar iki eklemsiz tek eğri.
+
 ## Sahte mesajlaşma ekranı — çizildi (2026-11-26): `src/kisacasi/MesajEkrani.tsx`
 
 - Dışa açılanlar: `MesajEkrani` (grup sohbeti), `BildirimYigini` (kilit ekranı + yığılan bildirimler),
@@ -139,3 +153,4 @@ Kaynaklar: `strategy/research/04-konular.md` §1.2 (karakter tarifleri), `strate
   `useId` (harf-rakam dışı karakterler temizlenerek) kullanıldı. Yeni karakterlerde clipPath/mask gerekiyorsa aynı yol.
 - **2026-11-26** — 150 px'te (önizleme alt satırı) Nermin'in 4 ifadesi ayırt ediliyor; en zayıfı sinirli/üzgün farkı
   (ikisinde de gözler açık, fark kaşta ve öfke işaretinde). Kaynak: KarakterOnizleme kare 20.
+- **2026-11-27** — Anne ve saklama kabı (`src/kisacasi/Kap.tsx`) çizildi; Video05 karelerinde (0, 40, 70, 110, 150, 200, 290, 372, 440, 520, 590, 640, 689) incelendi. Kapı boşluğunda kollar açıkken el kadrajın dışına taştığı için açık poz eli x=50/550'ye çekildi. Kaynak: kendi render'larımız.
