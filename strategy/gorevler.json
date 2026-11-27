@@ -128,5 +128,10 @@
     "devam_icin": "Kanal sahibi 'devam et' derse: 1) yukarıdaki 5 zamanlanmış görevi update_trigger ile enabled=true yap; 2) duraklatildi görevleri calisiyor/bekliyor yap ve sırayla başlat (aynı anda en fazla 2 ağır iş); 3) strategy/DURUM.md'yi güncelle.",
     "devam_tarihi": "2026-11-27T22:40:00Z",
     "not": "Zamanlanmış görevlerden günlük tarama, nöbetçi ve haftalık rapor yeniden açıldı; iki yedek tarama KAPALI bırakıldı (kredi tasarrufu). Kullanım sınırı sıfırlama saati (kanal sahibi, 28.11 03:40 TR): sonrasına tek seferlik nöbetçi kuruldu."
+  },
+  "veri_bekleme": {
+    "karar": "27-28.11.2026, kanal sahibi",
+    "kural": "Yeni video senaryosu/montajı BAŞLATMA. Hazır videolar yayınlanana ve ilk veri gelene kadar bekle. Kanal sahibi 'yeni video' ya da 'devam' derse bu kural kalkar.",
+    "nobetci": "video05-montaj (Anne) bitince saat başı nöbetçi (trig_01VCssrZ1jX6prCJrPbJQsRn) KAPATILMALI; yeni iş başlayınca yeniden açılır."
   }
 }
