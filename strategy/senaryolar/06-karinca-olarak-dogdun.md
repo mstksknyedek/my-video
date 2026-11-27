@@ -1,5 +1,7 @@
 # 06 · Karınca Olarak Doğdun (tekil video, Böcek Dünyası; Kazım konuk)
 
+> **Genel Müdür notu (27.11.2026):** Doğrulama düzeltmesi uygulandı: bilgi yalnızca ateş karıncası işçileri için kanıtlı (Cassill ve ark. 2009), bu yüzden punchline ve ekran yazısı "ateş karıncası" diyor.
+
 > **Bu video tek cümleyle:** Karınca olarak doğsaydın günde 250 kez uyurdun ama her uykun yaklaşık 1 dakika sürerdi; yani "beş dakika daha" diye bir şey olmazdı.
 
 Hazırlanma: 27 Kasım 2026 · Yazan: kanal-senarist · Durum: TASLAK (sırada kanal-dogrulayici, kanal-retention, kanal-kural-denetcisi, sonra kanal sahibi onayı)
@@ -16,7 +18,7 @@ Yayın planı: STRATEJI §5 #4 · Cmt 12 Aralık 2026 · 12:00 · Sütun: Böcek
 ## 1. Başlık ve fikir
 
 - **Başlık önerisi:** Karınca olarak doğdun 🐜 (STRATEJI §5; 23 karakter)
-- **Açıklama ilk satırı:** Karınca olsaydın günde 250 kez uyurdun. Kötü haber: her biri 1 dakika.
+- **Açıklama ilk satırı:** Ateş karıncası olsaydın günde 250 kez uyurdun. Kötü haber: her biri 1 dakika.
 - **Açıklamada kaynak satırı:** Kaynak: Cassill ve ark. (2009), Journal of Insect Behavior 22: 313-323 (ateş karıncası işçileri).
 - **Tek cümlelik fikir:** Yukarıdaki kutu.
 - **Bağ:** "X olarak doğdun" biçimini kopyalamadan uyarlıyor: izleyiciye "sen" diye seslenen anlatıcı + Kazım'ın bedeni. Kiracı Karınca serisinin bölümü değil (kira yok, imza cümlesi yok); Kazım konuk oyuncu.
@@ -40,7 +42,7 @@ Hedef süre: **~23 sn** · **8 sahne** · Seslendirme toplamı **~36 kelime**.
 | 3 | 6,0–8,8 | Kazım'ın başının üstünde kocaman bir **kum saati** belirir, 1 dakikalık. Kazım doğrulur (`saskin`), bükük anteni yavaşça düşer. | **Anlatıcı:** Kötü haber: her biri bir dakika. | `HER BİRİ: ~1 DAKİKA` | `circir` (8,0–8,8, sessizlik) |
 | 4 | 8,8–13,0 | **Hızlı montaj (3 tur):** Kazım şilteye yatar → kum saati 0,6 sn'de akar → minik çalar saat "çırrr" → Kazım fırlar, bir şeker kırıntısı taşır → yine yatar. Sayaç `1/250 → 2/250 → 3/250`, sonra hızla `87/250 → 160/250`. Kazım giderek dağınık (`sinirli`, gözler kırmızımsı halkalı). | **Kazım:** Daha yeni yattım! | Rozet akar | çalar saat ×3 (9,6 / 10,8 / 12,0) · `hizli-sar` (12,2, sayaç fırlar) |
 | 5 | 13,0–15,8 | Sayaç `249/250`. Kazım şilteye gömülür, yastığı kafasına bastırır, bir ayağıyla çalar saati iter. | **Kazım:** Beş dakika daha… | Rozet `249/250` | kumaş hışırtısı / `soft-whoosh` hafif (13,2) |
-| 6 | 15,8–19,4 | Çalar saat dev boyuta büyür ve çalar; kum saati yere "tak" diye konar. Kazım donar (`saskin`). Replik biter bitmez **punchline yazısı** çarpar. | **Anlatıcı:** Karıncada beş dakika yok. Bir dakika, o kadar. | (17,6'dan itibaren, dev, sarı blok, iki satır) `KARINCA OLSAN` / `"BEŞ DAKİKA DAHA" YOK.` | çalar saat (15,8) · `hit` (17,6, yazı çarpar) |
+| 6 | 15,8–19,4 | Çalar saat dev boyuta büyür ve çalar; kum saati yere "tak" diye konar. Kazım donar (`saskin`). Replik biter bitmez **punchline yazısı** çarpar. | **Anlatıcı:** Ateş karıncasında beş dakika yok. Bir dakika, o kadar. | (17,6'dan itibaren, dev, sarı blok, iki satır) `KARINCA OLSAN` / `"BEŞ DAKİKA DAHA" YOK.` | çalar saat (15,8) · `hit` (17,6, yazı çarpar) |
 | 7 | 19,4–20,0 | **KAPAK KARESİ** (sabit, 0,6 sn, altyazı kapalı). Bkz. §5. | — (sessiz) | `250 UYKU` · `HER BİRİ 1 DK` | `logo-hit` (19,4, ses 0,5) |
 | 8 | 20,0–23,0 | Sayaç `250/250` → `YENİ GÜN: 1/250`. Kazım şilteye sarınmış hâlde yatıyor; şilte rulosu bir **koza** gibi görünür. Kazım yorgun bir sesle konuşur; 22,4'te çalar saat çalar ve Kazım şilte-kozadan fırlar (son kare = 1. sahnedeki koza çatlaması). | **Kazım:** Günaydın… yine. | `YENİ GÜN: 1/250` | çalar saat (22,4) → döngü (1. sahnedeki çatlama sesine bağlanır) |
 
@@ -66,7 +68,7 @@ Hedef süre: **~23 sn** · **8 sahne** · Seslendirme toplamı **~36 kelime**.
 [6,2]  Kötü haber: | her biri | bir dakika. |
 [9,8]  Daha yeni | yattım! |
 [13,2] Beş dakika | daha… |
-[16,0] Karıncada | beş dakika yok. | Bir dakika, | o kadar. |
+[16,0] Ateş karıncasında | beş dakika yok. | Bir dakika, | o kadar. |
 [20,4] Günaydın… | yine. |
 ```
 
@@ -80,7 +82,7 @@ ANLATICI: İyi haber: günde iki yüz elli kez uyuyorsun.
 ANLATICI: Kötü haber: her biri bir dakika.
 KAZIM:    Daha yeni yattım!
 KAZIM:    Beş dakika daha…
-ANLATICI: Karıncada beş dakika yok. Bir dakika, o kadar.
+ANLATICI: Ateş karıncasında beş dakika yok. Bir dakika, o kadar.
 KAZIM:    Günaydın… yine.
 ```
 
@@ -131,7 +133,7 @@ KAZIM:    Günaydın… yine.
 
 ### Kural kontrol listesi (kanal-senarist)
 - [x] Tek cümle testi: dosyanın başında.
-- [x] Punchline açık: sözlü ("Karıncada beş dakika yok. Bir dakika, o kadar.") + ekranda yazılı ("KARINCA OLSAN 'BEŞ DAKİKA DAHA' YOK.").
+- [x] Punchline açık: sözlü ("Ateş karıncasında beş dakika yok. Bir dakika, o kadar.") + ekranda yazılı ("ATEŞ KARINCASI OLSAN 'BEŞ DAKİKA DAHA' YOK.").
 - [x] 8 sahne, ~23 sn.
 - [x] Kanca ilk 1 sn'de (çatlayan koza + "Tebrikler. Ateş karıncası olarak doğdun").
 - [x] Her 3-4 sn'de yeni görsel olay.

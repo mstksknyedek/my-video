@@ -34,6 +34,21 @@ Durum etiketleri: DOĞRU · KISMEN · YANLIŞ · DOĞRULANAMADI.
 
 ### S-05 · Karasineğin 6 bacağı vardır — DOĞRU (genel böcek anatomisi; tüm böcekler 3 çift bacaklı). (2026-11-26)
 
+## Karıncalar (ateş karıncası, *Solenopsis invicta*)
+
+### K-01 · Ateş karıncası işçileri günde ~253 kez, her biri ~1,1 dk uyur (toplam ~4,8 saat/gün) — DOĞRU, SINIRLI GEÇERLİLİK (2026-11-27)
+- Kaynak: Cassill, Brown, Swick & Yanev (2009), "Polyphasic wake/sleep episodes in the fire ant, *Solenopsis invicta*", *Journal of Insect Behavior* 22: 313-323 — https://link.springer.com/article/10.1007%2Fs10905-009-9173-4 · https://digitalcommons.usf.edu/fac_publications/1010/ · https://pure.lib.usf.edu/en/publications/polyphasic-wakesleep-episodes-in-the-fire-ant-solenopsis-invicta-2/ (özetler; tam metin PDF kopyası açılmadı: https://dictionnaire-amoureux-des-fourmis.fr/S/Sommeil/Cassill-Polyphasic_Wake-Sleep_Solenopsis-Invicta_2009.pdf)
+- Rakamlar işçiler için ortalama: ~253 uyku/gün, ~1,1 dk, ~4,8 sa/gün. Kraliçeler: ~92 uyku, ~6 dk, ~9,4 sa/gün (özetten).
+- Sınırlar: tek laboratuvar kolonisi (3 kraliçe, 30 işçi, 30 iri larva), yapay oda, işçi verisi rastgele seçilmiş tek 24 saat. Sonuç "ateş karıncası işçileri" için; "bütün karıncalar" için kullanılamaz.
+- Kullanım: "günde yaklaşık 250 kez, her biri yaklaşık 1 dakika" yuvarlaması kabul edilebilir; "ateş karıncası" ifadesi korunmalı. Kullanılmayan: "450 şekerleme" (makaleyle uyuşmuyor); "işçilerin %80'i her an aktif" (yalnızca ikincil kaynaklarda, DOĞRULANAMADI).
+- Not: Bu kayıt WebSearch özetlerine dayanır; işçi rakamının birebir cümlesi bir özet sonucunda görüldü, tam metin görülmedi.
+
+### K-02 · Ateş karıncası işçilerinin hepsi kısır dişidir — DOĞRU (2026-11-27)
+- Kaynak: UF/IFAS EDIS IN352 (Collins & Scheffrahn): işçiler kısır dişi, yumurtayı yalnızca kraliçe üretir — https://edis.ifas.ufl.edu/publication/IN352/pdf (arama parçası; tam cümle görülmedi). Destek: Tschinkel (1998), *Solenopsis* işçilerinin yumurtalığı yoktur — https://www.bio.fsu.edu/~tschink/publications/1998-2.pdf ; Mississippi State Ext.: tüm işçiler dişi — https://extension.msstate.edu/newsletters/bugs-eye-view/2021/imported-fire-ant-workers-vol-7-no-5
+- Kullanım: Kazım (erkek karakter) için sabit yorumdaki "işçiler dişidir, Kazım kurgusal" notu doğru.
+
+### K-03 · "Karınca kendi ağırlığının 50 katını taşır" — YANLIŞ/KULLANILMAZ (04-konular kaynak 2-3'e göre; bu turda yeniden aranmadı) (2026-11-27)
+
 ### Kullanılmaması gerekenler (2026-11-26)
 - "Sinek ayağı insan dilinden X kat hassas" türü sayılar: kaynak bulunamadı → DOĞRULANAMADI.
 - "Sinek mikrop/hastalık taşır": Britannica ayaklarda milyonlarca mikroorganizma taşıyabileceğini söylüyor (https://www.britannica.com/animal/housefly), ama kanal kuralı gereği somut sağlık iddiası verilmez; kullanılacaksa ayrıca doğrulanmalı.
