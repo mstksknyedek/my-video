@@ -323,7 +323,7 @@ const DefterKarti: React.FC<{ readonly kare: number }> = ({ kare }) => {
             top: 100,
             fontFamily: HEADLINE_FONT,
             fontWeight: 700,
-            fontSize: 86,
+            fontSize: 70,
             lineHeight: 1,
             color: KIRMIZI,
             rotate: "-3deg",
@@ -1077,6 +1077,18 @@ const KapakKaresi: React.FC = () => {
           kolKaldir={0.75}
         />
       </div>
+      {/* the table edge hides the flat cut at the bottom of her bust */}
+      <div
+        style={{
+          position: "absolute",
+          left: -20,
+          top: 1440,
+          width: 1120,
+          height: 520,
+          backgroundColor: "#F6E7C8",
+          borderTop: "9px solid #111111",
+        }}
+      />
       <Interactive.Div
         name="Kapak: herkesin"
         style={{
@@ -1092,7 +1104,7 @@ const KapakKaresi: React.FC = () => {
           boxShadow: "14px 16px 0 #111111",
           fontFamily: HEADLINE_FONT,
           fontWeight: 700,
-          fontSize: 170,
+          fontSize: 154,
           lineHeight: 1.0,
           letterSpacing: -3,
           textAlign: "center",
