@@ -9,10 +9,12 @@ type Props = {
   readonly style?: React.CSSProperties;
   /** Optional: hide a page this many ms after its last word ends (default: keep it until the next page). */
   readonly beklemeMs?: number;
+  /** Optional: words starting within this many ms of a page's first word share the page (default 900). */
+  readonly birlestirmeMs?: number;
 };
 
 // Shorts-style captions: a few words per page, the spoken word lifts and turns yellow.
-const ShortsCaptionsInner: React.FC<Props> = ({ captions, style, beklemeMs }) => {
+const ShortsCaptionsInner: React.FC<Props> = ({ captions, style, beklemeMs, birlestirmeMs = 900 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const nowMs = (frame / fps) * 1000;
@@ -21,9 +23,9 @@ const ShortsCaptionsInner: React.FC<Props> = ({ captions, style, beklemeMs }) =>
     () =>
       createTikTokStyleCaptions({
         captions,
-        combineTokensWithinMilliseconds: 900,
+        combineTokensWithinMilliseconds: birlestirmeMs,
       }),
-    [captions],
+    [captions, birlestirmeMs],
   );
 
   const page = pages.find(

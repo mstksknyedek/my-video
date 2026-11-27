@@ -6,6 +6,7 @@ import { KisacasiShort } from "./kisacasi/KisacasiShort";
 import { KarakterOnizleme } from "./kisacasi/karakterler/KarakterOnizleme";
 import { MesajEkraniOnizleme } from "./kisacasi/MesajEkraniOnizleme";
 import { Video01AileGrubu } from "./kisacasi/videolar/Video01AileGrubu";
+import { Video01SesliMesaj } from "./kisacasi/videolar/Video01SesliMesaj";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -41,6 +42,14 @@ export const RemotionRoot: React.FC = () => {
           id="Video01AileGrubu"
           component={Video01AileGrubu}
           durationInFrames={849}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Video01SesliMesaj"
+          component={Video01SesliMesaj}
+          durationInFrames={672}
           fps={30}
           width={1080}
           height={1920}

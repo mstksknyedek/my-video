@@ -43,6 +43,21 @@ export type MesajOgesi =
       readonly bitis?: number;
       /** Slowly grows after it pops in (the "12 people saw it and nobody answered" beat). */
       readonly vurgula?: boolean;
+    }
+  | {
+      /** A voice message: play button, waveform, moving playhead, "elapsed / total" label. */
+      readonly tur: "sesli";
+      readonly kim: string;
+      /** Total length in seconds (277 = 4:37). */
+      readonly sure: number;
+      readonly kare: number;
+      /** Frame the play button is pressed (pause icon from then on). */
+      readonly oynatKaresi?: number;
+      /** Elapsed-time keyframes (frame -> seconds), interpolated in between, so the time can jump. */
+      readonly ilerleme?: readonly { readonly kare: number; readonly saniye: number }[];
+      /** Frames where a fast-forward starts: the "two triangles" sign lights up for ~0.4 s. */
+      readonly sarmalar?: readonly number[];
+      readonly bitis?: number;
     };
 
 /** Frames during which the whole phone buzzes. */
@@ -389,6 +404,8 @@ const BOSLUK = 22;
 const YAZI = 38;
 const SATIR = 48;
 const KARAKTER = 24;
+/** Height of the voice-message bubble. */
+const SESLI_BALON = 168;
 
 type Yerlesim = { readonly oge: MesajOgesi; readonly h: number; readonly satirlar: string[] };
 
@@ -408,6 +425,8 @@ const yukseklikHesapla = (oge: MesajOgesi, gorselBoyu: number): Yerlesim => {
       return { oge, satirlar: [], h: 62 };
     case "goruldu":
       return { oge, satirlar: [], h: 64 };
+    case "sesli":
+      return { oge, satirlar: [], h: 40 + SESLI_BALON + 12 };
   }
 };
 
@@ -660,6 +679,60 @@ const Oge: React.FC<{
 
   const renk = kisiRenkleri?.[o.kim] ?? kisiRengi(o.kim);
 
+  if (o.tur === "sesli") {
+    const anahtar = o.ilerleme ?? [];
+    const saniye =
+      anahtar.length === 0
+        ? 0
+        : anahtar.length === 1
+          ? anahtar[0].saniye
+          : interpolate(
+              frame,
+              anahtar.map((a) => a.kare),
+              anahtar.map((a) => a.saniye),
+              { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
+            );
+    const oynuyor = o.oynatKaresi !== undefined && frame >= o.oynatKaresi && saniye < o.sure;
+    const basma =
+      o.oynatKaresi !== undefined
+        ? interpolate(frame - o.oynatKaresi, [0, 3, 8], [1, 0.82, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })
+        : 1;
+    const sarma = (o.sarmalar ?? []).reduce(
+      (acc, s) => Math.max(acc, interpolate(frame - s, [0, 2, 10, 14], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })),
+      0,
+    );
+    return (
+      <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "flex-end", gap: 14 }}>
+        <Avatar kim={o.kim} renk={renk} boyut={64} />
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "flex-start",
+            flex: 1,
+            minWidth: 0,
+            transform: `scale(${olcek})`,
+            transformOrigin: "left bottom",
+            marginBottom: 6,
+          }}
+        >
+          <div style={{ fontFamily: BODY_FONT, fontWeight: 700, fontSize: 28, color: renk, height: 36, paddingLeft: 8 }}>
+            {o.kim}
+          </div>
+          <SesliMesajBalonu
+            genislik={ic - 64 - 14}
+            sure={o.sure}
+            saniye={saniye}
+            oynuyor={oynuyor}
+            basma={basma}
+            sarma={sarma}
+            bitti={saniye >= o.sure}
+          />
+        </div>
+      </div>
+    );
+  }
+
   if (o.tur === "yaziyor") {
     return (
       <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", gap: 14 }}>
@@ -746,6 +819,156 @@ const Oge: React.FC<{
             </div>
           </div>
         )}
+      </div>
+    </div>
+  );
+};
+
+/* ------------------------------------------------------------------------------------------ */
+/* Voice message bubble (own drawing: red round play button, ink waveform, yellow playhead)    */
+/* ------------------------------------------------------------------------------------------ */
+
+const DALGA_CUBUK = 40;
+// fixed, deterministic bar heights (0.25..1): a "speech" shape, no randomness
+const DALGA = Array.from({ length: DALGA_CUBUK }, (_, i) => {
+  const v = Math.abs(Math.sin(i * 1.7) * 0.55 + Math.sin(i * 0.63 + 1) * 0.35 + Math.sin(i * 3.1) * 0.15);
+  return 0.25 + Math.min(1, v) * 0.75;
+});
+
+/** 277 -> "4:37" */
+export const sureYazisi = (saniye: number) => {
+  const s = Math.max(0, Math.floor(saniye + 1e-6));
+  return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+};
+
+/** Fast-forward sign: two yellow triangles (own drawing). */
+const IleriSarSimgesi: React.FC<{ readonly boyut: number }> = ({ boyut }) => (
+  <svg width={boyut} height={boyut * 0.62} viewBox="0 0 100 62" style={{ display: "block", overflow: "visible" }}>
+    <path d="M 6 6 L 48 31 L 6 56 Z" fill={SARI} stroke={MUREKKEP} strokeWidth={7} strokeLinejoin="round" />
+    <path d="M 48 6 L 90 31 L 48 56 Z" fill={SARI} stroke={MUREKKEP} strokeWidth={7} strokeLinejoin="round" />
+  </svg>
+);
+
+/**
+ * The voice-message bubble on its own (also used big on the cover frame).
+ * `saniye` = elapsed time shown; `sarma` 0..1 lights the fast-forward sign; `bitti` greys it out.
+ */
+export const SesliMesajBalonu: React.FC<{
+  readonly genislik: number;
+  readonly sure: number;
+  readonly saniye: number;
+  readonly oynuyor: boolean;
+  readonly basma?: number;
+  readonly sarma?: number;
+  readonly bitti?: boolean;
+}> = ({ genislik, sure, saniye, oynuyor, basma = 1, sarma = 0, bitti = false }) => {
+  const oran = Math.max(0, Math.min(1, saniye / sure));
+  const dugme = 92;
+  const dalgaGenislik = genislik - 10 - 36 - dugme - 22;
+  const adim = dalgaGenislik / DALGA_CUBUK;
+  const dalgaH = 72;
+  return (
+    <div
+      style={{
+        width: genislik,
+        height: SESLI_BALON,
+        boxSizing: "border-box",
+        backgroundColor: "white",
+        border: `5px solid ${MUREKKEP}`,
+        borderRadius: 26,
+        boxShadow: `0 6px 0 ${MUREKKEP}`,
+        padding: "14px 18px",
+        display: "flex",
+        alignItems: "center",
+        gap: 22,
+        filter: bitti ? "grayscale(0.85)" : undefined,
+        opacity: bitti ? 0.8 : 1,
+      }}
+    >
+      {/* play / pause button */}
+      <div
+        style={{
+          width: dugme,
+          height: dugme,
+          borderRadius: dugme,
+          flexShrink: 0,
+          backgroundColor: KIRMIZI,
+          border: `5px solid ${MUREKKEP}`,
+          boxSizing: "border-box",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          transform: `scale(${basma})`,
+        }}
+      >
+        <svg width={44} height={44} viewBox="0 0 44 44">
+          {oynuyor ? (
+            <>
+              <rect x={8} y={6} width={10} height={32} rx={3} fill="white" stroke={MUREKKEP} strokeWidth={3} />
+              <rect x={26} y={6} width={10} height={32} rx={3} fill="white" stroke={MUREKKEP} strokeWidth={3} />
+            </>
+          ) : (
+            <path d="M 12 5 L 38 22 L 12 39 Z" fill="white" stroke={MUREKKEP} strokeWidth={3} strokeLinejoin="round" />
+          )}
+        </svg>
+      </div>
+      <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: 6, minWidth: 0 }}>
+        {/* waveform with the playhead */}
+        <div style={{ position: "relative", width: dalgaGenislik, height: dalgaH }}>
+          {DALGA.map((v, i) => {
+            const h = v * dalgaH * 0.9;
+            const calindi = (i + 0.5) / DALGA_CUBUK <= oran;
+            return (
+              <div
+                key={i}
+                style={{
+                  position: "absolute",
+                  left: i * adim + adim * 0.2,
+                  top: (dalgaH - h) / 2,
+                  width: adim * 0.6,
+                  height: h,
+                  borderRadius: adim,
+                  backgroundColor: calindi ? MAVI : "#CFC6B8",
+                }}
+              />
+            );
+          })}
+          <div
+            style={{
+              position: "absolute",
+              left: oran * dalgaGenislik - 17,
+              top: dalgaH / 2 - 17,
+              width: 34,
+              height: 34,
+              borderRadius: 34,
+              backgroundColor: SARI,
+              border: `5px solid ${MUREKKEP}`,
+              boxSizing: "border-box",
+            }}
+          />
+        </div>
+        {/* elapsed / total + fast-forward sign */}
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: 50 }}>
+          <div style={{ fontFamily: HEADLINE_FONT, fontWeight: 700, fontSize: 44, lineHeight: 1, color: MUREKKEP, whiteSpace: "nowrap" }}>
+            {sureYazisi(saniye)} <span style={{ color: GRI_YAZI }}>/</span> <span style={{ color: KIRMIZI }}>{sureYazisi(sure)}</span>
+          </div>
+          <div
+            style={{
+              opacity: sarma,
+              transform: `scale(${0.6 + 0.4 * sarma})`,
+              transformOrigin: "right center",
+              display: "flex",
+              alignItems: "center",
+              gap: 8,
+              backgroundColor: MUREKKEP,
+              borderRadius: 999,
+              padding: "4px 14px 4px 10px",
+            }}
+          >
+            <IleriSarSimgesi boyut={58} />
+            <span style={{ fontFamily: HEADLINE_FONT, fontWeight: 700, fontSize: 30, color: SARI, lineHeight: 1 }}>İLERİ</span>
+          </div>
+        </div>
       </div>
     </div>
   );
