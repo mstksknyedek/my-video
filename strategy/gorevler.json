@@ -69,37 +69,37 @@
       "baslik": "Video 6 'Karınca olarak doğdun' montajı",
       "ajan": "general-purpose",
       "brif": "strategy/gorevler/06-karinca-montaj.md",
-      "durum": "duraklatildi",
-      "baslangic": "2026-11-27T19:12:00Z",
-      "son_isaret": "2026-11-27T19:12:00Z",
+      "durum": "calisiyor",
+      "baslangic": "2026-11-27T22:40:00Z",
+      "son_isaret": "2026-11-27T22:40:00Z",
       "beklenen_ciktilar": [
         "src/kisacasi/videolar/Video06KarincaDogdun.tsx",
         "out/video06-karinca.mp4"
       ],
       "sonra": "tsc + eslint, kareleri incele, commit + push, MP4'ü kanal sahibine ilet.",
-      "not": "Kanal sahibi 27.11.2026'da çalışmaları duraklattı. Yarım kod 'wip/video06-07' dalında (incelenmedi, derlenmeyebilir). Devam: o daldan dosyaları al (git checkout wip/video06-07 -- src public sounds), kalan işi tamamla."
+      "not": "Devam edildi (28.11.2026 01:40 TR). Yarım kod ana dala geri alındı; diskte var olanı kontrol et, olanı yeniden yapma, eksikten devam et."
     },
     {
       "id": "video07-montaj",
       "baslik": "Video 7 'Düğünde takı muhasebesi' montajı",
       "ajan": "general-purpose",
       "brif": "strategy/gorevler/07-dugun-montaj.md",
-      "durum": "duraklatildi",
-      "baslangic": "2026-11-27T19:12:00Z",
-      "son_isaret": "2026-11-27T19:12:00Z",
+      "durum": "calisiyor",
+      "baslangic": "2026-11-27T22:40:00Z",
+      "son_isaret": "2026-11-27T22:40:00Z",
       "beklenen_ciktilar": [
         "src/kisacasi/videolar/Video07DugunTakiDefteri.tsx",
         "out/video07-dugun.mp4"
       ],
       "sonra": "tsc + eslint, kareleri incele, commit + push, MP4'ü kanal sahibine ilet.",
-      "not": "Kanal sahibi 27.11.2026'da çalışmaları duraklattı. Yarım kod 'wip/video06-07' dalında (incelenmedi, derlenmeyebilir). Devam: o daldan dosyaları al (git checkout wip/video06-07 -- src public sounds), kalan işi tamamla."
+      "not": "Devam edildi (28.11.2026 01:40 TR). Yarım kod ana dala geri alındı; diskte var olanı kontrol et, olanı yeniden yapma, eksikten devam et."
     },
     {
       "id": "video05-montaj",
       "baslik": "Video 3 'Annenin kapları geri dönmez' montajı (Anne karakteri dahil)",
       "ajan": "general-purpose",
       "brif": "strategy/gorevler/05-kaplar-montaj.md",
-      "durum": "duraklatildi",
+      "durum": "bekliyor",
       "baslangic": "2026-11-27T19:25:00Z",
       "son_isaret": "2026-11-27T19:25:00Z",
       "beklenen_ciktilar": [
@@ -108,12 +108,12 @@
         "out/video05-kaplar.mp4"
       ],
       "sonra": "Aynı anda en fazla 2 ağır iş kuralı: video06-montaj veya video07-montaj biterse başlat. Bitince tsc + eslint, kareleri incele, commit + push, MP4'ü kanal sahibine ilet.",
-      "not": "Başlamadı; kanal sahibi çalışmaları duraklattı."
+      "not": "06 veya 07 bitince başlat (aynı anda en fazla 2 ağır iş)."
     }
   ],
   "tetikleyici_kayitlari": [],
   "duraklatma": {
-    "durum": "DURAKLATILDI",
+    "durum": "DEVAM EDILIYOR",
     "tarih": "2026-11-27T19:05:00Z",
     "neden": "Kanal sahibi, kredi süresi başka projeye gerektiği için ara verdi.",
     "kapatilan_zamanlanmis_gorevler": {
@@ -123,6 +123,8 @@
       "trig_01VCssrZ1jX6prCJrPbJQsRn": "Nöbetçi, saat başı",
       "trig_01JSZNmj8oLYoHuruqWYJR6R": "Haftalık Genel Müdür raporu (Pzt 08:43 TR)"
     },
-    "devam_icin": "Kanal sahibi 'devam et' derse: 1) yukarıdaki 5 zamanlanmış görevi update_trigger ile enabled=true yap; 2) duraklatildi görevleri calisiyor/bekliyor yap ve sırayla başlat (aynı anda en fazla 2 ağır iş); 3) strategy/DURUM.md'yi güncelle."
+    "devam_icin": "Kanal sahibi 'devam et' derse: 1) yukarıdaki 5 zamanlanmış görevi update_trigger ile enabled=true yap; 2) duraklatildi görevleri calisiyor/bekliyor yap ve sırayla başlat (aynı anda en fazla 2 ağır iş); 3) strategy/DURUM.md'yi güncelle.",
+    "devam_tarihi": "2026-11-27T22:40:00Z",
+    "not": "Zamanlanmış görevlerden günlük tarama, nöbetçi ve haftalık rapor yeniden açıldı; iki yedek tarama KAPALI bırakıldı (kredi tasarrufu). Kullanım sınırı sıfırlama saati (kanal sahibi, 28.11 03:40 TR): sonrasına tek seferlik nöbetçi kuruldu."
   }
 }

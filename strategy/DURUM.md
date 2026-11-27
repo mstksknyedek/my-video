@@ -1,15 +1,9 @@
 # Durum
 
-**⏸ DURAKLATILDI** (27.11.2026, kanal sahibinin isteğiyle). Hiçbir otomatik görev çalışmıyor, hiçbir ajan aktif değil.
+**▶ DEVAM EDİLİYOR** (28.11.2026 01:40 TR). Duraklatma sona erdi.
 
-Devam etmek için sohbete **"devam et"** yazmak yeterli. Gerisini Genel Müdür yapar (talimat: `strategy/gorevler.json` → `duraklatma`).
-
-## Nerede kaldık
-- ✅ **#1 Sesli mesaj 4:37:** hazır, onaylandı, 7 Aralık 19:30 için `out/video01-sesli-mesaj.mp4`
-- ✅ **#2 Sinek:** hazır, kanal sahibinin yorumunu bekliyor (`out/video02-sinek.mp4`)
-- ⏸ **#4 Karınca olarak doğdun** ve **#5 Düğünde takı:** seslendirme hazır, montaj yarım (kod `wip/video06-07` dalında)
-- ⏸ **#3 Annenin kapları:** seslendirme hazır (Anne sesi: Leda), Anne karakteri çizilecek, montaj başlamadı
-- 🔕 Kapatılan zamanlanmış görevler: günlük tarama, iki yedek tarama, nöbetçi, haftalık rapor (kimlikleri `gorevler.json`'da)
-
-## Açılışa kadar
-Açılış 7 Aralık 2026 19:30. Tampon hedefi en az 8 video; şu an 2 hazır. Duraklama uzarsa takvim kayabilir; devam ettiğimizde planı yeniden hesaplarım.
+- **Yayına hazır:** #1 Sesli mesaj (`out/video01-sesli-mesaj.mp4`), #2 Sinek (`out/video02-sinek.mp4`). Yükleme paketleri: `strategy/yukleme/`.
+- **Yapılıyor:** #4 Karınca olarak doğdun, #5 Düğünde takı (montaj). Sırada: #3 Annenin kapları (Anne çizimi).
+- **Zamanlanmış görevler:** günlük tarama, nöbetçi (saat başı), haftalık rapor AÇIK. İki yedek tarama kapalı.
+- **Kullanım sınırı:** kanal sahibi bildirdi, sıfırlama 28.11 03:40 TR; 03:45'te tek seferlik nöbetçi var.
+- **Yumuşak açılış:** #1 28 Kasım 12:00, #2 29 Kasım 12:00. Tampon yok; sonraki videolar bittikçe yayınlanır.
