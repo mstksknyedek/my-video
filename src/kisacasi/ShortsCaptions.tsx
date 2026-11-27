@@ -11,10 +11,21 @@ type Props = {
   readonly beklemeMs?: number;
   /** Optional: words starting within this many ms of a page's first word share the page (default 900). */
   readonly birlestirmeMs?: number;
+  /** Optional: colour of the words not being spoken (default white). */
+  readonly renk?: string;
+  /** Optional: words that always stay yellow and a little bigger (compared without punctuation, case-insensitive). */
+  readonly vurguKelimeler?: string[];
 };
 
 // Shorts-style captions: a few words per page, the spoken word lifts and turns yellow.
-const ShortsCaptionsInner: React.FC<Props> = ({ captions, style, beklemeMs, birlestirmeMs = 900 }) => {
+const ShortsCaptionsInner: React.FC<Props> = ({
+  captions,
+  style,
+  beklemeMs,
+  birlestirmeMs = 900,
+  renk = "white",
+  vurguKelimeler,
+}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const nowMs = (frame / fps) * 1000;
@@ -62,13 +73,15 @@ const ShortsCaptionsInner: React.FC<Props> = ({ captions, style, beklemeMs, birl
       {page
         ? page.tokens.map((t) => {
             const active = nowMs >= t.fromMs && nowMs < t.toMs;
+            const vurgulu =
+              vurguKelimeler?.includes(t.text.trim().toLocaleLowerCase("tr").replace(/[^\p{L}\p{N}]/gu, "")) ?? false;
             return (
               <span
                 key={t.fromMs}
                 style={{
                   display: "inline-block",
-                  color: active ? "#F7C600" : "white",
-                  scale: active ? "1.12" : "1",
+                  color: active || vurgulu ? "#F7C600" : renk,
+                  scale: active ? "1.12" : vurgulu ? "1.08" : "1",
                   translate: active ? "0px -6px" : "0px 0px",
                 }}
               >
