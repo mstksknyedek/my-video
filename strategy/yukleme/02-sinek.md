@@ -1,6 +1,6 @@
 # Yükleme paketi — #2 "Sinek neden sofraya konar?"
 
-**Dosya:** `video02-sinek.mp4` (26 sn, sohbette gönderildi) · **Zaman:** Pazar 29 Kasım 2026, 12:00 (kanal sahibi videoyu izleyip onaylarsa)
+**Dosya:** `video02-sinek.mp4` (26 sn, sohbette gönderildi) · **Zaman:** Pazar 29 Kasım 2026, 12:00 (**ONAYLANDI**, kanal sahibi, 28.11.2026)
 
 **Başlık**
 ```
