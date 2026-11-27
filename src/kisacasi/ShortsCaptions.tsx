@@ -7,10 +7,12 @@ import { BODY_FONT } from "./fonts";
 type Props = {
   readonly captions: Caption[];
   readonly style?: React.CSSProperties;
+  /** Optional: hide a page this many ms after its last word ends (default: keep it until the next page). */
+  readonly beklemeMs?: number;
 };
 
 // Shorts-style captions: a few words per page, the spoken word lifts and turns yellow.
-const ShortsCaptionsInner: React.FC<Props> = ({ captions, style }) => {
+const ShortsCaptionsInner: React.FC<Props> = ({ captions, style, beklemeMs }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const nowMs = (frame / fps) * 1000;
@@ -25,7 +27,12 @@ const ShortsCaptionsInner: React.FC<Props> = ({ captions, style }) => {
   );
 
   const page = pages.find(
-    (p) => nowMs >= p.startMs && nowMs < p.startMs + p.durationMs,
+    (p) =>
+      nowMs >= p.startMs &&
+      nowMs < p.startMs + p.durationMs &&
+      (beklemeMs === undefined ||
+        p.tokens.length === 0 ||
+        nowMs < p.tokens[p.tokens.length - 1].toMs + beklemeMs),
   );
 
   return (

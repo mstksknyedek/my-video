@@ -5,6 +5,8 @@ Input: a JSON list of lines, each {"kim": "<character>", "metin": "<text>"}; cha
 mapped to voices in voice/sesler.json. Output, in public/voice/<video>/:
   - NN-<character>.mp3 for every line
   - zamanlama.json: each line's file, duration and per-word timings
+Leading silence is trimmed from every file. Video 1 (01-aile-grubu) was made before this
+and trims its untrimmed files in the composition instead; do not regenerate its audio.
 Word timings are estimated by spreading the measured line duration over the words in
 proportion to their length (Chirp 3 HD returns no timestamps). Good enough for word-highlight
 captions; replace with forced alignment if it ever drifts noticeably.
@@ -67,7 +69,13 @@ def main():
         if kim not in voices:
             sys.exit(f"no voice for '{kim}' in voice/sesler.json")
         f = out_dir / f"{i:02d}-{kim}.mp3"
-        f.write_bytes(synth(metin, voices[kim], line.get("hiz", 1.0)))
+        raw = out_dir / f"{i:02d}-{kim}.raw.mp3"
+        raw.write_bytes(synth(metin, voices[kim], line.get("hiz", 1.0)))
+        # Chirp 3 HD files start with 0.1-0.7 s of silence; cut it (keep 50 ms) so word times line up.
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw), "-af",
+                        "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05",
+                        str(f)], check=True)
+        raw.unlink()
         chars += len(metin)
         d = duration(f)
         result.append({"dosya": f"voice/{sys.argv[2]}/{f.name}", "kim": kim, "metin": metin,
