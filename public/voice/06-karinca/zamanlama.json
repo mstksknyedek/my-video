@@ -1,0 +1,238 @@
+[
+  {
+    "dosya": "voice/06-karinca/01-anlatici.mp3",
+    "kim": "anlatici",
+    "metin": "Tebrikler. Ateş karıncası olarak doğdun.",
+    "sure": 2.568,
+    "kelimeler": [
+      {
+        "kelime": "Tebrikler.",
+        "baslangic": 0.0,
+        "bitis": 0.658
+      },
+      {
+        "kelime": "Ateş",
+        "baslangic": 0.658,
+        "bitis": 0.988
+      },
+      {
+        "kelime": "karıncası",
+        "baslangic": 0.988,
+        "bitis": 1.646
+      },
+      {
+        "kelime": "olarak",
+        "baslangic": 1.646,
+        "bitis": 2.107
+      },
+      {
+        "kelime": "doğdun.",
+        "baslangic": 2.107,
+        "bitis": 2.568
+      }
+    ]
+  },
+  {
+    "dosya": "voice/06-karinca/02-anlatici.mp3",
+    "kim": "anlatici",
+    "metin": "İyi haber: günde iki yüz elli kez uyuyorsun.",
+    "sure": 3.144,
+    "kelimeler": [
+      {
+        "kelime": "İyi",
+        "baslangic": 0.0,
+        "bitis": 0.292
+      },
+      {
+        "kelime": "haber:",
+        "baslangic": 0.292,
+        "bitis": 0.731
+      },
+      {
+        "kelime": "günde",
+        "baslangic": 0.731,
+        "bitis": 1.17
+      },
+      {
+        "kelime": "iki",
+        "baslangic": 1.17,
+        "bitis": 1.462
+      },
+      {
+        "kelime": "yüz",
+        "baslangic": 1.462,
+        "bitis": 1.755
+      },
+      {
+        "kelime": "elli",
+        "baslangic": 1.755,
+        "bitis": 2.12
+      },
+      {
+        "kelime": "kez",
+        "baslangic": 2.12,
+        "bitis": 2.413
+      },
+      {
+        "kelime": "uyuyorsun.",
+        "baslangic": 2.413,
+        "bitis": 3.144
+      }
+    ]
+  },
+  {
+    "dosya": "voice/06-karinca/03-anlatici.mp3",
+    "kim": "anlatici",
+    "metin": "Kötü haber: her biri bir dakika.",
+    "sure": 2.136,
+    "kelimeler": [
+      {
+        "kelime": "Kötü",
+        "baslangic": 0.0,
+        "bitis": 0.345
+      },
+      {
+        "kelime": "haber:",
+        "baslangic": 0.345,
+        "bitis": 0.758
+      },
+      {
+        "kelime": "her",
+        "baslangic": 0.758,
+        "bitis": 1.034
+      },
+      {
+        "kelime": "biri",
+        "baslangic": 1.034,
+        "bitis": 1.378
+      },
+      {
+        "kelime": "bir",
+        "baslangic": 1.378,
+        "bitis": 1.654
+      },
+      {
+        "kelime": "dakika.",
+        "baslangic": 1.654,
+        "bitis": 2.136
+      }
+    ]
+  },
+  {
+    "dosya": "voice/06-karinca/04-kazim.mp3",
+    "kim": "kazim",
+    "metin": "Daha yeni yattım!",
+    "sure": 1.2,
+    "kelimeler": [
+      {
+        "kelime": "Daha",
+        "baslangic": 0.0,
+        "bitis": 0.353
+      },
+      {
+        "kelime": "yeni",
+        "baslangic": 0.353,
+        "bitis": 0.706
+      },
+      {
+        "kelime": "yattım!",
+        "baslangic": 0.706,
+        "bitis": 1.2
+      }
+    ]
+  },
+  {
+    "dosya": "voice/06-karinca/05-kazim.mp3",
+    "kim": "kazim",
+    "metin": "Beş dakika daha…",
+    "sure": 1.32,
+    "kelimeler": [
+      {
+        "kelime": "Beş",
+        "baslangic": 0.0,
+        "bitis": 0.33
+      },
+      {
+        "kelime": "dakika",
+        "baslangic": 0.33,
+        "bitis": 0.907
+      },
+      {
+        "kelime": "daha…",
+        "baslangic": 0.907,
+        "bitis": 1.32
+      }
+    ]
+  },
+  {
+    "dosya": "voice/06-karinca/06-anlatici.mp3",
+    "kim": "anlatici",
+    "metin": "Ateş karıncasında beş dakika yok. Bir dakika, o kadar.",
+    "sure": 3.432,
+    "kelimeler": [
+      {
+        "kelime": "Ateş",
+        "baslangic": 0.0,
+        "bitis": 0.33
+      },
+      {
+        "kelime": "karıncasında",
+        "baslangic": 0.33,
+        "bitis": 1.188
+      },
+      {
+        "kelime": "beş",
+        "baslangic": 1.188,
+        "bitis": 1.452
+      },
+      {
+        "kelime": "dakika",
+        "baslangic": 1.452,
+        "bitis": 1.914
+      },
+      {
+        "kelime": "yok.",
+        "baslangic": 1.914,
+        "bitis": 2.178
+      },
+      {
+        "kelime": "Bir",
+        "baslangic": 2.178,
+        "bitis": 2.442
+      },
+      {
+        "kelime": "dakika,",
+        "baslangic": 2.442,
+        "bitis": 2.904
+      },
+      {
+        "kelime": "o",
+        "baslangic": 2.904,
+        "bitis": 3.036
+      },
+      {
+        "kelime": "kadar.",
+        "baslangic": 3.036,
+        "bitis": 3.432
+      }
+    ]
+  },
+  {
+    "dosya": "voice/06-karinca/07-kazim.mp3",
+    "kim": "kazim",
+    "metin": "Günaydın… yine.",
+    "sure": 1.2,
+    "kelimeler": [
+      {
+        "kelime": "Günaydın…",
+        "baslangic": 0.0,
+        "bitis": 0.771
+      },
+      {
+        "kelime": "yine.",
+        "baslangic": 0.771,
+        "bitis": 1.2
+      }
+    ]
+  }
+]

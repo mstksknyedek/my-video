@@ -1,0 +1,234 @@
+[
+  {
+    "dosya": "voice/07-dugun/01-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Kim ne taktı, hepsini yazıyorum.",
+    "sure": 2.112,
+    "kelimeler": [
+      {
+        "kelime": "Kim",
+        "baslangic": 0.0,
+        "bitis": 0.273
+      },
+      {
+        "kelime": "ne",
+        "baslangic": 0.273,
+        "bitis": 0.477
+      },
+      {
+        "kelime": "taktı,",
+        "baslangic": 0.477,
+        "bitis": 0.886
+      },
+      {
+        "kelime": "hepsini",
+        "baslangic": 0.886,
+        "bitis": 1.431
+      },
+      {
+        "kelime": "yazıyorum.",
+        "baslangic": 1.431,
+        "bitis": 2.112
+      }
+    ]
+  },
+  {
+    "dosya": "voice/07-dugun/02-anlatici.mp3",
+    "kim": "anlatici",
+    "metin": "Kenan Amca'dan bir çeyrek!",
+    "sure": 1.584,
+    "kelimeler": [
+      {
+        "kelime": "Kenan",
+        "baslangic": 0.0,
+        "bitis": 0.366
+      },
+      {
+        "kelime": "Amca'dan",
+        "baslangic": 0.366,
+        "bitis": 0.914
+      },
+      {
+        "kelime": "bir",
+        "baslangic": 0.914,
+        "bitis": 1.158
+      },
+      {
+        "kelime": "çeyrek!",
+        "baslangic": 1.158,
+        "bitis": 1.584
+      }
+    ]
+  },
+  {
+    "dosya": "voice/07-dugun/03-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Yazdım.",
+    "sure": 0.792,
+    "kelimeler": [
+      {
+        "kelime": "Yazdım.",
+        "baslangic": 0.0,
+        "bitis": 0.792
+      }
+    ]
+  },
+  {
+    "dosya": "voice/07-dugun/04-anlatici.mp3",
+    "kim": "anlatici",
+    "metin": "Sevim Teyze'den bir çeyrek!",
+    "sure": 1.632,
+    "kelimeler": [
+      {
+        "kelime": "Sevim",
+        "baslangic": 0.0,
+        "bitis": 0.363
+      },
+      {
+        "kelime": "Teyze'den",
+        "baslangic": 0.363,
+        "bitis": 0.967
+      },
+      {
+        "kelime": "bir",
+        "baslangic": 0.967,
+        "bitis": 1.209
+      },
+      {
+        "kelime": "çeyrek!",
+        "baslangic": 1.209,
+        "bitis": 1.632
+      }
+    ]
+  },
+  {
+    "dosya": "voice/07-dugun/05-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Biz onun oğluna yarım takmıştık!",
+    "sure": 1.992,
+    "kelimeler": [
+      {
+        "kelime": "Biz",
+        "baslangic": 0.0,
+        "bitis": 0.249
+      },
+      {
+        "kelime": "onun",
+        "baslangic": 0.249,
+        "bitis": 0.56
+      },
+      {
+        "kelime": "oğluna",
+        "baslangic": 0.56,
+        "bitis": 0.996
+      },
+      {
+        "kelime": "yarım",
+        "baslangic": 0.996,
+        "bitis": 1.369
+      },
+      {
+        "kelime": "takmıştık!",
+        "baslangic": 1.369,
+        "bitis": 1.992
+      }
+    ]
+  },
+  {
+    "dosya": "voice/07-dugun/06-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Not ettim.",
+    "sure": 0.912,
+    "kelimeler": [
+      {
+        "kelime": "Not",
+        "baslangic": 0.0,
+        "bitis": 0.365
+      },
+      {
+        "kelime": "ettim.",
+        "baslangic": 0.365,
+        "bitis": 0.912
+      }
+    ]
+  },
+  {
+    "dosya": "voice/07-dugun/07-anlatici.mp3",
+    "kim": "anlatici",
+    "metin": "Sıra Nermin Teyze'de!",
+    "sure": 1.368,
+    "kelimeler": [
+      {
+        "kelime": "Sıra",
+        "baslangic": 0.0,
+        "bitis": 0.326
+      },
+      {
+        "kelime": "Nermin",
+        "baslangic": 0.326,
+        "bitis": 0.782
+      },
+      {
+        "kelime": "Teyze'de!",
+        "baslangic": 0.782,
+        "bitis": 1.368
+      }
+    ]
+  },
+  {
+    "dosya": "voice/07-dugun/08-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Herkesin mi defteri var?",
+    "sure": 1.488,
+    "kelimeler": [
+      {
+        "kelime": "Herkesin",
+        "baslangic": 0.0,
+        "bitis": 0.558
+      },
+      {
+        "kelime": "mi",
+        "baslangic": 0.558,
+        "bitis": 0.744
+      },
+      {
+        "kelime": "defteri",
+        "baslangic": 0.744,
+        "bitis": 1.24
+      },
+      {
+        "kelime": "var?",
+        "baslangic": 1.24,
+        "bitis": 1.488
+      }
+    ]
+  },
+  {
+    "dosya": "voice/07-dugun/09-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Çeyrek değil… bilezik takıyorum!",
+    "sure": 2.232,
+    "kelimeler": [
+      {
+        "kelime": "Çeyrek",
+        "baslangic": 0.0,
+        "bitis": 0.504
+      },
+      {
+        "kelime": "değil…",
+        "baslangic": 0.504,
+        "bitis": 0.936
+      },
+      {
+        "kelime": "bilezik",
+        "baslangic": 0.936,
+        "bitis": 1.512
+      },
+      {
+        "kelime": "takıyorum!",
+        "baslangic": 1.512,
+        "bitis": 2.232
+      }
+    ]
+  }
+]

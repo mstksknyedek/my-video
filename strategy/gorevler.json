@@ -41,14 +41,16 @@
       "baslik": "05-07 senaryolarının doğrulama + kural denetimi",
       "ajan": "kanal-dogrulayici + kanal-kural-denetcisi",
       "brif": "strategy/gorevler/05-07-kontrol.md",
-      "durum": "calisiyor",
+      "durum": "bitti",
       "baslangic": "2026-11-27T18:55:00Z",
       "son_isaret": "2026-11-27T18:55:00Z",
       "beklenen_ciktilar": [
         "strategy/raporlar/2026-11-27-kanal-dogrulayici-06.md",
         "strategy/raporlar/2026-11-27-kanal-kural-denetcisi-05-07.md"
       ],
-      "sonra": "Raporları commit + push et; düzeltme önerilerini Genel Müdür uygular. Sonra seslendirme ve montaja geçilebilir (Anne sesi seçilene kadar 05 hariç)."
+      "sonra": "Raporları commit + push et; düzeltme önerilerini Genel Müdür uygular. Sonra seslendirme ve montaja geçilebilir (Anne sesi seçilene kadar 05 hariç).",
+      "bitis": "2026-11-27T19:10:00Z",
+      "not": "Raporlar yazıldı; düzeltmeler senaryolara ve STRATEJI.md'ye uygulandı."
     },
     {
       "id": "anne-sesi",
@@ -60,6 +62,34 @@
       "son_isaret": "2026-11-27T18:55:00Z",
       "beklenen_ciktilar": [],
       "sonra": "Kanal sahibi 3 adaydan birini seçer; voice/sesler.json'a 'anne' eklenir."
+    },
+    {
+      "id": "video06-montaj",
+      "baslik": "Video 6 'Karınca olarak doğdun' montajı",
+      "ajan": "general-purpose",
+      "brif": "strategy/gorevler/06-karinca-montaj.md",
+      "durum": "calisiyor",
+      "baslangic": "2026-11-27T19:12:00Z",
+      "son_isaret": "2026-11-27T19:12:00Z",
+      "beklenen_ciktilar": [
+        "src/kisacasi/videolar/Video06KarincaDogdun.tsx",
+        "out/video06-karinca.mp4"
+      ],
+      "sonra": "tsc + eslint, kareleri incele, commit + push, MP4'ü kanal sahibine ilet."
+    },
+    {
+      "id": "video07-montaj",
+      "baslik": "Video 7 'Düğünde takı muhasebesi' montajı",
+      "ajan": "general-purpose",
+      "brif": "strategy/gorevler/07-dugun-montaj.md",
+      "durum": "calisiyor",
+      "baslangic": "2026-11-27T19:12:00Z",
+      "son_isaret": "2026-11-27T19:12:00Z",
+      "beklenen_ciktilar": [
+        "src/kisacasi/videolar/Video07DugunTakiDefteri.tsx",
+        "out/video07-dugun.mp4"
+      ],
+      "sonra": "tsc + eslint, kareleri incele, commit + push, MP4'ü kanal sahibine ilet."
     }
   ],
   "tetikleyici_kayitlari": []
