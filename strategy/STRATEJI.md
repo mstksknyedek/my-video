@@ -84,7 +84,7 @@ Başlıklar 30 karakter civarında ve hashtag'siz; hashtag'ler yalnızca açıkl
 
 | # | Tarih / saat | Başlık | Açıklama ilk satırı | Hashtag'ler (açıklamada) | Ek etiketler | Senaryo |
 |---|---|---|---|---|---|---|
-| 1 | Pzt 7 Ara · 19:30 | Teyzeden 4:37'lik sesli mesaj | Nermin Teyze bir şey soracaktı. 4 dakika 37 saniye sürdü. | #kısacası #seslimesaj #mizah | sesli mesaj, aile grubu, teyze, nermin teyze | 04-nermin-yeni (onaylandı) |
+| 1 | Pzt 7 Ara · 19:30 | Teyzeden 4:37'lik sesli mesaj | Nermin Teyze bir şey soracaktı. 4 dakika 37 saniye sürdü. | #kısacası #seslimesaj #mizah | sesli mesaj, aile grubu, teyze, nermin teyze | ✅ video hazır, onaylandı |
 | 2 | Çar 9 Ara · 12:30 | Sinek neden sofraya konar? 🪰 | Uğur Hoca anlatıyor: sinekler tadı ayaklarıyla da alır. | #kısacası #böcekler #bilgi | sinek, böcek bilgileri, ilginç bilgiler, uğur hoca | yazılıyor |
 | 3 | Cum 11 Ara · 20:30 | Annenin tupperi geri dönmeli | Annenin verdiği saklama kabı geri dönmezse ne olur? | #kısacası #türkannesi #mizah | türk annesi, saklama kabı, tupper, anne | sırada |
 | 4 | Cmt 12 Ara · 12:00 | Karınca olarak doğdun 🐜 | Bir karıncanın ilk günü: iş, yuva, şeker kırıntısı. | #kısacası #karınca #animasyon | karınca, böcek, karınca olarak doğdun, kazım | sırada |
@@ -100,6 +100,23 @@ Başlıklar 30 karakter civarında ve hashtag'siz; hashtag'ler yalnızca açıkl
 Sonraya alınanlar (ekonomi testinin sonucuna göre): Ev sahibim hamamböceği (Hamdi Bey), Emlakçı Örümcek Ercan, e-Devlet şifresi destanı.
 
 **Takvime sabitlenenler:** yılın özeti (28-30 Aralık), karne (21-22 Ocak 2027), bayram soru yağmuru (6-8 Mart 2027). Kadir Gecesi'nde (5 Mart) mizah videosu yayınlanmaz. Ayrıntılı takvim: [Konular §3](research/04-konular.md).
+
+## 5b. Üretim planı (açılışa kadar: 7 Aralık 2026)
+
+Hedef: açılıştan önce **en az 8 video tamponu**. Kullanım sınırını korumak için aynı anda en fazla bir montaj ve bir yazım/çizim işi yürür.
+
+| Gün | İş | Durum |
+|---|---|---|
+| 27 Kas | #1 Sesli mesaj 4:37 | ✅ bitti, kanal sahibi onayladı |
+| 27 Kas | #2 Sinek (Uğur Hoca): seslendirme + montaj | seslendirme ✅, montaj sürüyor |
+| 27-28 Kas | #3 Tupper, #4 Karınca olarak doğdun, #5 Düğün takısı: tek cümlelik fikirler + senaryolar | sırada (kanal sahibi onayı gerekir) |
+| 28-29 Kas | Yeni karakterler: Hamdi Bey (hamamböceği), Anne (#3), düğün figürleri (#5) | sırada |
+| 29-30 Kas | #6 Karınca ev arkadaşı arıyor (senaryo hazır) | sırada |
+| 1-4 Ara | #3, #4, #5, #7 Sepetteki ürünler | sırada |
+| 5-6 Ara | #8 Arı, #9 Minibüs; tüm tampona kalite kontrol + paketleme (başlık, açıklama, etiket, kapak karesi) | sırada |
+| 7 Ara | **Açılış:** #1 yayında (19:30) | |
+
+Her video: senaryo → (kanal sahibi tek cümle onayı) → doğrulama + kural denetimi → seslendirme (`scripts/tts.py`) → montaj → `scripts/master_audio.sh` → kalite kontrol → paket.
 
 ## 6. Paketleme kuralları
 

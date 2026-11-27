@@ -1,5 +1,9 @@
 # 02 · Sinek Neden Sofraya Konar? (Uğur Hoca Anlatıyor #1)
 
+> **Genel Müdür notu (27.11.2026):** Yeni kurallara (en fazla 8 sahne, 18-25 sn) uymak için **sahne 5 (sofra misafiri) çıkarıldı** ve onun repliği seslendirmeden düştü. Kesin seslendirme: `02-sinek-satirlar.json`.
+> **Bu video tek cümleyle:** Uğur Hoca anlatıyor: sinek ekmeğine konduğunda aslında ayaklarıyla tadına bakıyor, sonra tükürüğüyle eritip emiyor.
+> Kural denetimi kararı: sınıfta bir an yetişkin böcekler görünsün, tahtanın köşesinde "Akşam Kursu" yazsın.
+
 > **Genel Müdür notu (26.11.2026):** Yayın sırası ve başlık STRATEJI v1.1 §5'e göre güncellendi: #2 · Çar 9 Aralık 2026 · 12:30 · "Sinek neden sofraya konar? 🪰" · imza artık "Kısacası millet". Aşağıdaki eski tarih/başlık geçersizdir.
 
 Hazırlanma: 26 Kasım 2026 · Yazan: kanal-senarist · Durum: TASLAK (sırada **kanal-dogrulayici**, kanal-retention, kanal-kural-denetcisi, sonra kanal sahibi onayı)

@@ -1,0 +1,285 @@
+[
+  {
+    "dosya": "voice/02-sinek/01-ugur-hoca.mp3",
+    "kim": "ugur-hoca",
+    "metin": "Sinek ekmeğine kondu. Aslında... tadına bakıyor.",
+    "sure": 2.736,
+    "kelimeler": [
+      {
+        "kelime": "Sinek",
+        "baslangic": 0.0,
+        "bitis": 0.373
+      },
+      {
+        "kelime": "ekmeğine",
+        "baslangic": 0.373,
+        "bitis": 0.933
+      },
+      {
+        "kelime": "kondu.",
+        "baslangic": 0.933,
+        "bitis": 1.306
+      },
+      {
+        "kelime": "Aslında...",
+        "baslangic": 1.306,
+        "bitis": 1.803
+      },
+      {
+        "kelime": "tadına",
+        "baslangic": 1.803,
+        "bitis": 2.239
+      },
+      {
+        "kelime": "bakıyor.",
+        "baslangic": 2.239,
+        "bitis": 2.736
+      }
+    ]
+  },
+  {
+    "dosya": "voice/02-sinek/02-ugur-hoca.mp3",
+    "kim": "ugur-hoca",
+    "metin": "Bugünkü dersimiz: sinekler, tadı ayaklarıyla da alır.",
+    "sure": 3.432,
+    "kelimeler": [
+      {
+        "kelime": "Bugünkü",
+        "baslangic": 0.0,
+        "bitis": 0.538
+      },
+      {
+        "kelime": "dersimiz:",
+        "baslangic": 0.538,
+        "bitis": 1.144
+      },
+      {
+        "kelime": "sinekler,",
+        "baslangic": 1.144,
+        "bitis": 1.75
+      },
+      {
+        "kelime": "tadı",
+        "baslangic": 1.75,
+        "bitis": 2.086
+      },
+      {
+        "kelime": "ayaklarıyla",
+        "baslangic": 2.086,
+        "bitis": 2.894
+      },
+      {
+        "kelime": "da",
+        "baslangic": 2.894,
+        "bitis": 3.096
+      },
+      {
+        "kelime": "alır.",
+        "baslangic": 3.096,
+        "bitis": 3.432
+      }
+    ]
+  },
+  {
+    "dosya": "voice/02-sinek/03-ugur-hoca.mp3",
+    "kim": "ugur-hoca",
+    "metin": "Yani o ekmeğe bastıysa, tadına çoktan bakmış.",
+    "sure": 3.24,
+    "kelimeler": [
+      {
+        "kelime": "Yani",
+        "baslangic": 0.0,
+        "bitis": 0.368
+      },
+      {
+        "kelime": "o",
+        "baslangic": 0.368,
+        "bitis": 0.515
+      },
+      {
+        "kelime": "ekmeğe",
+        "baslangic": 0.515,
+        "bitis": 1.031
+      },
+      {
+        "kelime": "bastıysa,",
+        "baslangic": 1.031,
+        "bitis": 1.694
+      },
+      {
+        "kelime": "tadına",
+        "baslangic": 1.694,
+        "bitis": 2.209
+      },
+      {
+        "kelime": "çoktan",
+        "baslangic": 2.209,
+        "bitis": 2.725
+      },
+      {
+        "kelime": "bakmış.",
+        "baslangic": 2.725,
+        "bitis": 3.24
+      }
+    ]
+  },
+  {
+    "dosya": "voice/02-sinek/04-ugur-hoca.mp3",
+    "kim": "ugur-hoca",
+    "metin": "Ama dahası var. Sinek çiğneyemez.",
+    "sure": 1.8,
+    "kelimeler": [
+      {
+        "kelime": "Ama",
+        "baslangic": 0.0,
+        "bitis": 0.225
+      },
+      {
+        "kelime": "dahası",
+        "baslangic": 0.225,
+        "bitis": 0.619
+      },
+      {
+        "kelime": "var.",
+        "baslangic": 0.619,
+        "bitis": 0.844
+      },
+      {
+        "kelime": "Sinek",
+        "baslangic": 0.844,
+        "bitis": 1.181
+      },
+      {
+        "kelime": "çiğneyemez.",
+        "baslangic": 1.181,
+        "bitis": 1.8
+      }
+    ]
+  },
+  {
+    "dosya": "voice/02-sinek/05-ugur-hoca.mp3",
+    "kim": "ugur-hoca",
+    "metin": "Önce yemeğin üstüne tükürük döker. Yumuşatır. Sonra pipetle çeker gibi emer.",
+    "sure": 5.04,
+    "kelimeler": [
+      {
+        "kelime": "Önce",
+        "baslangic": 0.0,
+        "bitis": 0.341
+      },
+      {
+        "kelime": "yemeğin",
+        "baslangic": 0.341,
+        "bitis": 0.885
+      },
+      {
+        "kelime": "üstüne",
+        "baslangic": 0.885,
+        "bitis": 1.362
+      },
+      {
+        "kelime": "tükürük",
+        "baslangic": 1.362,
+        "bitis": 1.907
+      },
+      {
+        "kelime": "döker.",
+        "baslangic": 1.907,
+        "bitis": 2.316
+      },
+      {
+        "kelime": "Yumuşatır.",
+        "baslangic": 2.316,
+        "bitis": 2.997
+      },
+      {
+        "kelime": "Sonra",
+        "baslangic": 2.997,
+        "bitis": 3.405
+      },
+      {
+        "kelime": "pipetle",
+        "baslangic": 3.405,
+        "bitis": 3.95
+      },
+      {
+        "kelime": "çeker",
+        "baslangic": 3.95,
+        "bitis": 4.359
+      },
+      {
+        "kelime": "gibi",
+        "baslangic": 4.359,
+        "bitis": 4.699
+      },
+      {
+        "kelime": "emer.",
+        "baslangic": 4.699,
+        "bitis": 5.04
+      }
+    ]
+  },
+  {
+    "dosya": "voice/02-sinek/06-ugur-hoca.mp3",
+    "kim": "ugur-hoca",
+    "metin": "Kısacası millet: sinek sofraya bastıysa, tadına bakmıştır. Ekmeği kapatın. Ders bitti!",
+    "sure": 5.376,
+    "kelimeler": [
+      {
+        "kelime": "Kısacası",
+        "baslangic": 0.0,
+        "bitis": 0.59
+      },
+      {
+        "kelime": "millet:",
+        "baslangic": 0.59,
+        "bitis": 1.049
+      },
+      {
+        "kelime": "sinek",
+        "baslangic": 1.049,
+        "bitis": 1.442
+      },
+      {
+        "kelime": "sofraya",
+        "baslangic": 1.442,
+        "bitis": 1.967
+      },
+      {
+        "kelime": "bastıysa,",
+        "baslangic": 1.967,
+        "bitis": 2.557
+      },
+      {
+        "kelime": "tadına",
+        "baslangic": 2.557,
+        "bitis": 3.016
+      },
+      {
+        "kelime": "bakmıştır.",
+        "baslangic": 3.016,
+        "bitis": 3.671
+      },
+      {
+        "kelime": "Ekmeği",
+        "baslangic": 3.671,
+        "bitis": 4.13
+      },
+      {
+        "kelime": "kapatın.",
+        "baslangic": 4.13,
+        "bitis": 4.655
+      },
+      {
+        "kelime": "Ders",
+        "baslangic": 4.655,
+        "bitis": 4.983
+      },
+      {
+        "kelime": "bitti!",
+        "baslangic": 4.983,
+        "bitis": 5.376
+      }
+    ]
+  }
+]
