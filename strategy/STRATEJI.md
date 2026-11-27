@@ -86,7 +86,7 @@ Başlıklar 30 karakter civarında ve hashtag'siz; hashtag'ler yalnızca açıkl
 |---|---|---|---|---|---|---|
 | 1 | Pzt 7 Ara · 19:30 | Teyzeden 4:37'lik sesli mesaj | Nermin Teyze bir şey soracaktı. 4 dakika 37 saniye sürdü. | #kısacası #seslimesaj #mizah | sesli mesaj, aile grubu, teyze, nermin teyze | ✅ video hazır, onaylandı |
 | 2 | Çar 9 Ara · 12:30 | Sinek neden sofraya konar? 🪰 | Uğur Hoca anlatıyor: sinekler tadı ayaklarıyla da alır. | #kısacası #böcekler #bilgi | sinek, böcek bilgileri, ilginç bilgiler, uğur hoca | yazılıyor |
-| 3 | Cum 11 Ara · 20:30 | Annenin tupperi geri dönmeli | Annenin verdiği saklama kabı geri dönmezse ne olur? | #kısacası #türkannesi #mizah | türk annesi, saklama kabı, tupper, anne | sırada |
+| 3 | Cum 11 Ara · 20:30 | Annenin kapları geri dönmez | Annenin verdiği saklama kabı geri dönmezse ne olur? | #kısacası #türkannesi #mizah | türk annesi, saklama kabı, tupper, anne | sırada |
 | 4 | Cmt 12 Ara · 12:00 | Karınca olarak doğdun 🐜 | Bir karıncanın ilk günü: iş, yuva, şeker kırıntısı. | #kısacası #karınca #animasyon | karınca, böcek, karınca olarak doğdun, kazım | sırada |
 | 5 | Paz 13 Ara · 12:00 | Düğünde takı muhasebesi 💍 | Takı töreninde kim ne taktı, defter tutuluyor. | #kısacası #düğün #mizah | düğün, takı töreni, altın, düğün komik | sırada |
 | 6 | Pzt 14 Ara · 12:30 | Karınca ev arkadaşı arıyor | Kiracı Karınca Kazım ev arkadaşı arıyor ama şartlar biraz ağır. | #kısacası #kira #animasyon | kira, ev arkadaşı, kiracı karınca, kazım | yazılıyor |

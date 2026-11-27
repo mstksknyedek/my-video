@@ -1,0 +1,37 @@
+[
+  {
+    "kim": "anlatici",
+    "metin": "Tebrikler. Ateş karıncası olarak doğdun.",
+    "hiz": 1.1
+  },
+  {
+    "kim": "anlatici",
+    "metin": "İyi haber: günde iki yüz elli kez uyuyorsun.",
+    "hiz": 1.1
+  },
+  {
+    "kim": "anlatici",
+    "metin": "Kötü haber: her biri bir dakika.",
+    "hiz": 1.1
+  },
+  {
+    "kim": "kazim",
+    "metin": "Daha yeni yattım!",
+    "hiz": 1.1
+  },
+  {
+    "kim": "kazim",
+    "metin": "Beş dakika daha…",
+    "hiz": 1.1
+  },
+  {
+    "kim": "anlatici",
+    "metin": "Karıncada beş dakika yok. Bir dakika, o kadar.",
+    "hiz": 1.1
+  },
+  {
+    "kim": "kazim",
+    "metin": "Günaydın… yine.",
+    "hiz": 1.1
+  }
+]
