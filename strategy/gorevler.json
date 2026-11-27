@@ -1,0 +1,37 @@
+{
+  "_aciklama": "Kalıcı görev defteri. Genel Müdür iş başlatırken kayıt ekler, işi bitirince 'bitti' yapar. Nöbetçi (saat başı) yarıda kalanları bulup devam ettirir. Durumlar: bekliyor, calisiyor, nobetci-yurutuyor, onay-bekliyor, bitti, basarisiz. Zamanlar UTC (ISO 8601).",
+  "kira_suresi_dakika": 120,
+  "gorevler": [
+    {
+      "id": "video02-montaj",
+      "baslik": "Video 2 'Sinek neden sofraya konar?' montajı",
+      "ajan": "general-purpose",
+      "brif": "strategy/gorevler/02-sinek-montaj.md",
+      "durum": "calisiyor",
+      "baslangic": "2026-11-27T18:25:00Z",
+      "son_isaret": "2026-11-27T18:26:00Z",
+      "beklenen_ciktilar": [
+        "src/kisacasi/videolar/Video02Sinek.tsx",
+        "src/kisacasi/karakterler/Sinek.tsx",
+        "out/video02-sinek.mp4"
+      ],
+      "sonra": "Çıktılar tamamsa: tsc ve eslint çalıştır, kareleri incele, commit + push, MP4'ü kanal sahibine ilet (ana oturum açıldığında)."
+    },
+    {
+      "id": "senaryo-05-07",
+      "baslik": "3., 4., 5. videoların senaryoları (tupper, karınca olarak doğdun, düğün takısı)",
+      "ajan": "kanal-senarist",
+      "brif": "strategy/gorevler/05-07-senaryolar.md",
+      "durum": "calisiyor",
+      "baslangic": "2026-11-27T18:25:00Z",
+      "son_isaret": "2026-11-27T18:26:00Z",
+      "beklenen_ciktilar": [
+        "strategy/senaryolar/05-*.md",
+        "strategy/senaryolar/06-*.md",
+        "strategy/senaryolar/07-*.md"
+      ],
+      "sonra": "Çıktılar tamamsa commit + push. Kanal sahibine tek cümlelik fikirleri onaya sun; onay gelmeden seslendirme ve montaja GEÇME (durum: onay-bekliyor)."
+    }
+  ],
+  "tetikleyici_kayitlari": []
+}

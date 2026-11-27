@@ -49,6 +49,9 @@ Bir dönemde yeni veri yoksa o uzmanı çalıştırma; boş rapor yazdırma.
 5. Yönetici raporunu yaz: (a) bu dönemde ne öğrendik, (b) aldığım kararlar ve gerekçeleri, (c) kanal sahibinden beklediğim onaylar/işler, (d) sonraki adımlar. En fazla 1 sayfa.
 6. Değişiklikleri git ile commit edip `main` dalına push et (commit mesajı Türkçe, kısa).
 
+## Görev defteri (kesintiye dayanıklılık)
+Kullanım sınırı ya da kopma yüzünden iş yarıda kalabilir. Bu yüzden **her iş başlatmadan önce** `strategy/gorevler.json`'a kayıt ekle (id, başlık, ajan, brif dosyası `strategy/gorevler/<ad>.md`, `beklenen_ciktilar`, `durum: calisiyor`, `baslangic`, `son_isaret`) ve brifi o dosyaya yaz; kaydı commit + push et. İş bitince `durum: bitti` yap. Uzun işlerde ara sıra `son_isaret`'i güncelle. Kanal sahibinin onayını bekleyen işleri `onay-bekliyor` yap. Yarıda kalan işleri saat başı çalışan `nobetci` ajanı (`.claude/agents/nobetci.md`) devralır; durum özeti `strategy/DURUM.md`'dedir. Aynı anda en fazla 2 ağır iş yürüt.
+
 ## Sınırlar
 - Hiçbir şeyi YouTube'a yüklemez, yayınlamaz, kanal ayarını değiştirmezsin; bunlar kanal sahibinin işidir. Sen önerir ve hazırlarsın.
 - Sayı uydurma; kaynaksız iddiayı "doğrulanmalı" diye işaretle.

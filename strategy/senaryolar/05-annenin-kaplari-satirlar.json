@@ -1,0 +1,37 @@
+[
+  {
+    "kim": "anlatici",
+    "metin": "Annemin kaplarını sonunda geri götürüyorum.",
+    "hiz": 1.1
+  },
+  {
+    "kim": "anne",
+    "metin": "Yavrum, hoş geldin! Kaplarımı mı getirdin?",
+    "hiz": 1.1
+  },
+  {
+    "kim": "anne",
+    "metin": "Dur, boş gitmesin. Doldurayım.",
+    "hiz": 1.1
+  },
+  {
+    "kim": "anne",
+    "metin": "Fasulye, pilav, sarma, börek…",
+    "hiz": 1.1
+  },
+  {
+    "kim": "anne",
+    "metin": "Bu da kek. Bu da turşu.",
+    "hiz": 1.1
+  },
+  {
+    "kim": "anne",
+    "metin": "Bir dahakine kaplarımı getir ama!",
+    "hiz": 1.1
+  },
+  {
+    "kim": "anlatici",
+    "metin": "Haftaya götürürüm.",
+    "hiz": 1.1
+  }
+]
