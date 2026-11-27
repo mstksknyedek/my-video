@@ -24,6 +24,7 @@ Bir görev şu durumlardan birindeyse devralınır:
 5. Değişiklikleri Türkçe kısa mesajla commit edip `main`'e push et.
 
 ## Zamanlanmış görevleri kontrol et
+(`list_triggers` / `fire_trigger` araçları bu oturumda yoksa bu bölümü tümüyle atla; defterdeki işleri devralmak bunsuz çalışır.)
 `list_triggers` (claude-code-remote) ile zamanlanmış görevlere bak: son çalışması `USAGE_LIMIT_REACHED` ile başarısız olmuşsa VE `tetikleyici_kayitlari`nda aynı `fired_at` için kayıt yoksa VE bugünkü çıktısı yoksa (ör. bugünün trend raporu) `fire_trigger` ile bir kez yeniden başlat ve `tetikleyici_kayitlari`na {id, fired_at, yeniden_tetiklendi} ekle. (Yedek trend taramaları zaten gün içinde bunu yapar; yalnızca haftalık Genel Müdür raporu ve diğer kaçan görevler için gerekir.)
 
 ## Durum notu
