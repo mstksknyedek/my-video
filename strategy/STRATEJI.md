@@ -108,7 +108,7 @@ Hedef: açılıştan önce **en az 8 video tamponu**. Kullanım sınırını kor
 | Gün | İş | Durum |
 |---|---|---|
 | 27 Kas | #1 Sesli mesaj 4:37 | ✅ bitti, kanal sahibi onayladı |
-| 27 Kas | #2 Sinek (Uğur Hoca): seslendirme + montaj | seslendirme ✅, montaj sürüyor |
+| 27 Kas | #2 Sinek (Uğur Hoca): seslendirme + montaj | ✅ bitti, kanal sahibinin yorumunu bekliyor |
 | 27-28 Kas | #3 Tupper, #4 Karınca olarak doğdun, #5 Düğün takısı: tek cümlelik fikirler + senaryolar | sırada (kanal sahibi onayı gerekir) |
 | 28-29 Kas | Yeni karakterler: Hamdi Bey (hamamböceği), Anne (#3), düğün figürleri (#5) | sırada |
 | 29-30 Kas | #6 Karınca ev arkadaşı arıyor (senaryo hazır) | sırada |

@@ -7,7 +7,7 @@
       "baslik": "Video 2 'Sinek neden sofraya konar?' montajı",
       "ajan": "general-purpose",
       "brif": "strategy/gorevler/02-sinek-montaj.md",
-      "durum": "calisiyor",
+      "durum": "bitti",
       "baslangic": "2026-11-27T18:25:00Z",
       "son_isaret": "2026-11-27T18:26:00Z",
       "beklenen_ciktilar": [
@@ -15,7 +15,9 @@
         "src/kisacasi/karakterler/Sinek.tsx",
         "out/video02-sinek.mp4"
       ],
-      "sonra": "Çıktılar tamamsa: tsc ve eslint çalıştır, kareleri incele, commit + push, MP4'ü kanal sahibine ilet (ana oturum açıldığında)."
+      "sonra": "Çıktılar tamamsa: tsc ve eslint çalıştır, kareleri incele, commit + push, MP4'ü kanal sahibine ilet (ana oturum açıldığında).",
+      "bitis": "2026-11-27T18:40:00Z",
+      "not": "out/video02-sinek.mp4 hazır (26 sn, -14,2 LUFS). Kanal sahibine gösterildi, yorum bekleniyor."
     },
     {
       "id": "senaryo-05-07",
