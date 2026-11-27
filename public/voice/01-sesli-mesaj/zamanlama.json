@@ -1,0 +1,178 @@
+[
+  {
+    "dosya": "voice/01-sesli-mesaj/01-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Kızım, bir şey soracağım.",
+    "sure": 1.824,
+    "kelimeler": [
+      {
+        "kelime": "Kızım,",
+        "baslangic": 0.0,
+        "bitis": 0.456
+      },
+      {
+        "kelime": "bir",
+        "baslangic": 0.456,
+        "bitis": 0.76
+      },
+      {
+        "kelime": "şey",
+        "baslangic": 0.76,
+        "bitis": 1.064
+      },
+      {
+        "kelime": "soracağım.",
+        "baslangic": 1.064,
+        "bitis": 1.824
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-sesli-mesaj/02-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Alo? Duyuyor musun?",
+    "sure": 1.776,
+    "kelimeler": [
+      {
+        "kelime": "Alo?",
+        "baslangic": 0.0,
+        "bitis": 0.395
+      },
+      {
+        "kelime": "Duyuyor",
+        "baslangic": 0.395,
+        "bitis": 1.184
+      },
+      {
+        "kelime": "musun?",
+        "baslangic": 1.184,
+        "bitis": 1.776
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-sesli-mesaj/03-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Alo? Bu kaydediyor mu?",
+    "sure": 2.04,
+    "kelimeler": [
+      {
+        "kelime": "Alo?",
+        "baslangic": 0.0,
+        "bitis": 0.389
+      },
+      {
+        "kelime": "Bu",
+        "baslangic": 0.389,
+        "bitis": 0.68
+      },
+      {
+        "kelime": "kaydediyor",
+        "baslangic": 0.68,
+        "bitis": 1.749
+      },
+      {
+        "kelime": "mu?",
+        "baslangic": 1.749,
+        "bitis": 2.04
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-sesli-mesaj/04-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Kızım! Duyuyor musun?",
+    "sure": 1.92,
+    "kelimeler": [
+      {
+        "kelime": "Kızım!",
+        "baslangic": 0.0,
+        "bitis": 0.576
+      },
+      {
+        "kelime": "Duyuyor",
+        "baslangic": 0.576,
+        "bitis": 1.344
+      },
+      {
+        "kelime": "musun?",
+        "baslangic": 1.344,
+        "bitis": 1.92
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-sesli-mesaj/05-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Hah, tamam. Şimdi soruyorum.",
+    "sure": 1.92,
+    "kelimeler": [
+      {
+        "kelime": "Hah,",
+        "baslangic": 0.0,
+        "bitis": 0.295
+      },
+      {
+        "kelime": "tamam.",
+        "baslangic": 0.295,
+        "bitis": 0.738
+      },
+      {
+        "kelime": "Şimdi",
+        "baslangic": 0.738,
+        "bitis": 1.182
+      },
+      {
+        "kelime": "soruyorum.",
+        "baslangic": 1.182,
+        "bitis": 1.92
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-sesli-mesaj/06-nermin-teyze.mp3",
+    "kim": "nermin-teyze",
+    "metin": "Ne soracaktım ben? Neyse, unuttum.",
+    "sure": 2.472,
+    "kelimeler": [
+      {
+        "kelime": "Ne",
+        "baslangic": 0.0,
+        "bitis": 0.232
+      },
+      {
+        "kelime": "soracaktım",
+        "baslangic": 0.232,
+        "bitis": 1.082
+      },
+      {
+        "kelime": "ben?",
+        "baslangic": 1.082,
+        "bitis": 1.391
+      },
+      {
+        "kelime": "Neyse,",
+        "baslangic": 1.391,
+        "bitis": 1.854
+      },
+      {
+        "kelime": "unuttum.",
+        "baslangic": 1.854,
+        "bitis": 2.472
+      }
+    ]
+  },
+  {
+    "dosya": "voice/01-sesli-mesaj/07-anlatici.mp3",
+    "kim": "anlatici",
+    "metin": "Hatırladı.",
+    "sure": 0.84,
+    "kelimeler": [
+      {
+        "kelime": "Hatırladı.",
+        "baslangic": 0.0,
+        "bitis": 0.84
+      }
+    ]
+  }
+]

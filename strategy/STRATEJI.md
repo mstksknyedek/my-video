@@ -84,7 +84,7 @@ Başlıklar 30 karakter civarında ve hashtag'siz; hashtag'ler yalnızca açıkl
 
 | # | Tarih / saat | Başlık | Açıklama ilk satırı | Hashtag'ler (açıklamada) | Ek etiketler | Senaryo |
 |---|---|---|---|---|---|---|
-| 1 | Pzt 7 Ara · 19:30 | Aile grubu, sabah 06.12 🌹 | Nermin Teyze aile grubunu yine sabah sabah çiçeğe boğdu. | #kısacası #ailegrubu #mizah | aile whatsapp grubu, günaydın mesajları, teyze, nermin teyze | yazılıyor |
+| 1 | Pzt 7 Ara · 19:30 | Teyzeden 4:37'lik sesli mesaj | Nermin Teyze bir şey soracak ama 4 dakika boyunca yalnızca "Alo?" diyor. | #kısacası #seslimesaj #mizah | sesli mesaj, aile grubu, teyze, nermin teyze | 04-nermin-yeni (onaylandı) |
 | 2 | Çar 9 Ara · 12:30 | Sinek neden sofraya konar? 🪰 | Uğur Hoca anlatıyor: sinekler tadı ayaklarıyla da alır. | #kısacası #böcekler #bilgi | sinek, böcek bilgileri, ilginç bilgiler, uğur hoca | yazılıyor |
 | 3 | Cum 11 Ara · 20:30 | Annenin tupperi geri dönmeli | Annenin verdiği saklama kabı geri dönmezse ne olur? | #kısacası #türkannesi #mizah | türk annesi, saklama kabı, tupper, anne | sırada |
 | 4 | Cmt 12 Ara · 12:00 | Karınca olarak doğdun 🐜 | Bir karıncanın ilk günü: iş, yuva, şeker kırıntısı. | #kısacası #karınca #animasyon | karınca, böcek, karınca olarak doğdun, kazım | sırada |
@@ -94,7 +94,7 @@ Başlıklar 30 karakter civarında ve hashtag'siz; hashtag'ler yalnızca açıkl
 | 8 | Cum 18 Ara · 20:30 | Arının ömürlük maaşı 🐝 | Uğur Hoca anlatıyor: bir arı bütün hayatında ne kadar bal yapar? | #kısacası #arı #bilgi | arı, bal, böcek bilgileri, uğur hoca | sırada |
 | 9 | Cmt 19 Ara · 12:00 | Minibüste para zinciri 🚐 | Arka koltuktan uzanan para şoföre kaç durakta ulaşır? | #kısacası #minibüs #komik | minibüs, dolmuş, para üstü, toplu taşıma | sırada |
 | 10 | Paz 20 Ara · 12:00 | Yıldızla yol bulan böcek 🌌 | Uğur Hoca anlatıyor: bok böceği Samanyolu'yla yön buluyor. | #kısacası #böcekler #bilgi | bok böceği, samanyolu, ilginç bilgiler, uğur hoca | sırada |
-| 11 | Pzt 21 Ara · 19:30 | Teyzeden 4 dakikalık sesli mesaj | Nermin Teyze yılın en uzun gecesinde sesli mesaj attı. | #kısacası #ailegrubu #mizah | sesli mesaj, aile grubu, nermin teyze | sırada |
+| 11 | Pzt 21 Ara · 19:30 | Teyze neden büyük harfle yazar? | Nermin Teyze gruba büyük harfle yazdı, herkes kızdığını sandı. | #kısacası #ailegrubu #mizah | büyük harf, aile grubu, teyze, nermin teyze | sırada |
 | 12 | **İlk kar günü** · hazır olunca | Kar yağdı, herkes F5'e bastı ❄️ | İlk kar tanesi düştü, herkes aynı haberi bekliyor. | #kısacası #kar #okul | kar tatili, okullar tatil mi, kar yağdı | sırada |
 
 Sonraya alınanlar (ekonomi testinin sonucuna göre): Ev sahibim hamamböceği (Hamdi Bey), Emlakçı Örümcek Ercan, e-Devlet şifresi destanı.
