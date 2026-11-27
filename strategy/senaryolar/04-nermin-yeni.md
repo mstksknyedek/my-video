@@ -2,7 +2,7 @@
 
 > **Bu video tek cümleyle:** Nermin Teyze bir şey sormak için 4 dakika 37 saniyelik sesli mesaj atıyor; mesajın tamamı "Alo, duyuyor musun?" ve sonunda "Neyse, unuttum" diyor.
 
-Hazırlanma: 27 Kasım 2026 · Yazan: kanal-senarist · Durum: TASLAK (sırada kanal-retention, kanal-kural-denetcisi, sonra kanal sahibi onayı)
+Hazırlanma: 27 Kasım 2026 · Yazan: kanal-senarist · Durum: ONAYLANDI (kanal sahibi, 27.11.2026) (sırada kanal-retention, kanal-kural-denetcisi, sonra kanal sahibi onayı)
 Yayın planı: Video 1 · Pzt 7 Aralık 2026 · 19:30 (STRATEJI §5, "Günaydın çiçekleri"nin yerine) · Sütun: Aile, Akraba, Komşu · Seri: Nermin Teyze Online
 Önceki taslak: `03-gunaydin-cicekleri.md` rafa kaldırıldı (kanal sahibi anlamadı: yanlış tuş belli değildi, espri söylenmedi, 13 sahne).
 

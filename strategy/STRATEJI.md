@@ -84,7 +84,7 @@ Başlıklar 30 karakter civarında ve hashtag'siz; hashtag'ler yalnızca açıkl
 
 | # | Tarih / saat | Başlık | Açıklama ilk satırı | Hashtag'ler (açıklamada) | Ek etiketler | Senaryo |
 |---|---|---|---|---|---|---|
-| 1 | Pzt 7 Ara · 19:30 | Teyzeden 4:37'lik sesli mesaj | Nermin Teyze bir şey soracak ama 4 dakika boyunca yalnızca "Alo?" diyor. | #kısacası #seslimesaj #mizah | sesli mesaj, aile grubu, teyze, nermin teyze | 04-nermin-yeni (onaylandı) |
+| 1 | Pzt 7 Ara · 19:30 | Teyzeden 4:37'lik sesli mesaj | Nermin Teyze bir şey soracaktı. 4 dakika 37 saniye sürdü. | #kısacası #seslimesaj #mizah | sesli mesaj, aile grubu, teyze, nermin teyze | 04-nermin-yeni (onaylandı) |
 | 2 | Çar 9 Ara · 12:30 | Sinek neden sofraya konar? 🪰 | Uğur Hoca anlatıyor: sinekler tadı ayaklarıyla da alır. | #kısacası #böcekler #bilgi | sinek, böcek bilgileri, ilginç bilgiler, uğur hoca | yazılıyor |
 | 3 | Cum 11 Ara · 20:30 | Annenin tupperi geri dönmeli | Annenin verdiği saklama kabı geri dönmezse ne olur? | #kısacası #türkannesi #mizah | türk annesi, saklama kabı, tupper, anne | sırada |
 | 4 | Cmt 12 Ara · 12:00 | Karınca olarak doğdun 🐜 | Bir karıncanın ilk günü: iş, yuva, şeker kırıntısı. | #kısacası #karınca #animasyon | karınca, böcek, karınca olarak doğdun, kazım | sırada |
@@ -145,6 +145,7 @@ Bu hedefler tahmindir; 20 video sonra kanalın kendi medyanına göre yeniden ya
 |---|---|---|
 | 2026-11-26 | Strateji v1: 5 sütun, 3 seri, ilk 30 gün haftada 5 video, A/B saat testi | 01, 03, 04 araştırma raporları |
 | 2026-11-26 | Seslendirme yapay zeka ile yapılacak; ilk 12 video listesi onaylandı | Kanal sahibinin kararı |
+| 2026-11-27 | Nermin Teyze serisinde her 3-4 bölümden birinde Nermin üstün gelir; "unuttum" punchline'ı arka arkaya kullanılmaz; açıklama/etiket/yorumda yaşlı, bunak, bunama, hafıza kaybı gibi kelimeler kullanılmaz | Kural denetimi: seri birikince "yaşlılar beceriksiz" okumasına kayma riski |
 | 2026-11-27 | 1. video "Günaydın çiçekleri" rafa kaldırıldı, yerine yeni Nermin Teyze hikayesi yazılıyor; senaristlere "tek cümle testi", açık punchline, en fazla 8 sahne / 18-25 sn kuralı eklendi. Nermin Teyze'nin sesi yaşlandırıldı (perde 0,817, tempo 0,93) | Kanal sahibi hikayeyi anlamadı; sesi daha yaşlı istedi |
 | 2026-11-26 | Uğur Hoca imzası "Kısacası millet… Ders bitti!" oldu; derslerde bir an yetişkin böcekler gösterilir, tahtada "Akşam Kursu" yazar. Kapanış ekranı yerine döngü + logo rozeti. "whatsapp" yalnızca tek bir etikette | Kural denetimi: "çocuklar" hitabı + sınıf, çocuklara özel sayılma riskini artırıyor; kapanış ekranı döngüyü bozuyor |
 | 2026-11-26 | v1.1: Aile sütunu %30'a çıktı, ekonomi %10'a indi; ilk 12 video yeniden sıralandı (3 yeni: tupper, karınca olarak doğdun, düğün takısı); başlıklar ~30 karakter ve hashtag'siz | 02 Veri: ekonomi mizahı medyanı ~2,5B, aile/düğün/anne/böcek ve konuşan eşyalar çok daha güçlü; kısa başlıklar daha iyi |
