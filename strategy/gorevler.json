@@ -57,11 +57,12 @@
       "baslik": "Anne karakterinin sesi",
       "ajan": "ana-oturum",
       "brif": "",
-      "durum": "onay-bekliyor",
+      "durum": "bitti",
       "baslangic": "2026-11-27T18:55:00Z",
       "son_isaret": "2026-11-27T18:55:00Z",
       "beklenen_ciktilar": [],
-      "sonra": "Kanal sahibi 3 adaydan birini seçer; voice/sesler.json'a 'anne' eklenir."
+      "sonra": "Kanal sahibi 3 adaydan birini seçer; voice/sesler.json'a 'anne' eklenir.",
+      "not": "Kanal sahibi 3 numaralı sesi (Leda) seçti, voice/sesler.json'a eklendi."
     },
     {
       "id": "video06-montaj",
@@ -90,6 +91,21 @@
         "out/video07-dugun.mp4"
       ],
       "sonra": "tsc + eslint, kareleri incele, commit + push, MP4'ü kanal sahibine ilet."
+    },
+    {
+      "id": "video05-montaj",
+      "baslik": "Video 3 'Annenin kapları geri dönmez' montajı (Anne karakteri dahil)",
+      "ajan": "general-purpose",
+      "brif": "strategy/gorevler/05-kaplar-montaj.md",
+      "durum": "bekliyor",
+      "baslangic": "2026-11-27T19:25:00Z",
+      "son_isaret": "2026-11-27T19:25:00Z",
+      "beklenen_ciktilar": [
+        "src/kisacasi/karakterler/Anne.tsx",
+        "src/kisacasi/videolar/Video05AnneninKaplari.tsx",
+        "out/video05-kaplar.mp4"
+      ],
+      "sonra": "Aynı anda en fazla 2 ağır iş kuralı: video06-montaj veya video07-montaj biterse başlat. Bitince tsc + eslint, kareleri incele, commit + push, MP4'ü kanal sahibine ilet."
     }
   ],
   "tetikleyici_kayitlari": []

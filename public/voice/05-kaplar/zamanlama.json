@@ -1,0 +1,218 @@
+[
+  {
+    "dosya": "voice/05-kaplar/01-anlatici.mp3",
+    "kim": "anlatici",
+    "metin": "Annemin kaplarını sonunda geri götürüyorum.",
+    "sure": 2.28,
+    "kelimeler": [
+      {
+        "kelime": "Annemin",
+        "baslangic": 0.0,
+        "bitis": 0.424
+      },
+      {
+        "kelime": "kaplarını",
+        "baslangic": 0.424,
+        "bitis": 0.954
+      },
+      {
+        "kelime": "sonunda",
+        "baslangic": 0.954,
+        "bitis": 1.379
+      },
+      {
+        "kelime": "geri",
+        "baslangic": 1.379,
+        "bitis": 1.644
+      },
+      {
+        "kelime": "götürüyorum.",
+        "baslangic": 1.644,
+        "bitis": 2.28
+      }
+    ]
+  },
+  {
+    "dosya": "voice/05-kaplar/02-anne.mp3",
+    "kim": "anne",
+    "metin": "Yavrum, hoş geldin! Kaplarımı mı getirdin?",
+    "sure": 2.832,
+    "kelimeler": [
+      {
+        "kelime": "Yavrum,",
+        "baslangic": 0.0,
+        "bitis": 0.496
+      },
+      {
+        "kelime": "hoş",
+        "baslangic": 0.496,
+        "bitis": 0.779
+      },
+      {
+        "kelime": "geldin!",
+        "baslangic": 0.779,
+        "bitis": 1.274
+      },
+      {
+        "kelime": "Kaplarımı",
+        "baslangic": 1.274,
+        "bitis": 1.982
+      },
+      {
+        "kelime": "mı",
+        "baslangic": 1.982,
+        "bitis": 2.195
+      },
+      {
+        "kelime": "getirdin?",
+        "baslangic": 2.195,
+        "bitis": 2.832
+      }
+    ]
+  },
+  {
+    "dosya": "voice/05-kaplar/03-anne.mp3",
+    "kim": "anne",
+    "metin": "Dur, boş gitmesin. Doldurayım.",
+    "sure": 2.352,
+    "kelimeler": [
+      {
+        "kelime": "Dur,",
+        "baslangic": 0.0,
+        "bitis": 0.336
+      },
+      {
+        "kelime": "boş",
+        "baslangic": 0.336,
+        "bitis": 0.672
+      },
+      {
+        "kelime": "gitmesin.",
+        "baslangic": 0.672,
+        "bitis": 1.428
+      },
+      {
+        "kelime": "Doldurayım.",
+        "baslangic": 1.428,
+        "bitis": 2.352
+      }
+    ]
+  },
+  {
+    "dosya": "voice/05-kaplar/04-anne.mp3",
+    "kim": "anne",
+    "metin": "Fasulye, pilav, sarma, börek…",
+    "sure": 2.688,
+    "kelimeler": [
+      {
+        "kelime": "Fasulye,",
+        "baslangic": 0.0,
+        "bitis": 0.827
+      },
+      {
+        "kelime": "pilav,",
+        "baslangic": 0.827,
+        "bitis": 1.447
+      },
+      {
+        "kelime": "sarma,",
+        "baslangic": 1.447,
+        "bitis": 2.068
+      },
+      {
+        "kelime": "börek…",
+        "baslangic": 2.068,
+        "bitis": 2.688
+      }
+    ]
+  },
+  {
+    "dosya": "voice/05-kaplar/05-anne.mp3",
+    "kim": "anne",
+    "metin": "Bu da kek. Bu da turşu.",
+    "sure": 2.76,
+    "kelimeler": [
+      {
+        "kelime": "Bu",
+        "baslangic": 0.0,
+        "bitis": 0.376
+      },
+      {
+        "kelime": "da",
+        "baslangic": 0.376,
+        "bitis": 0.753
+      },
+      {
+        "kelime": "kek.",
+        "baslangic": 0.753,
+        "bitis": 1.255
+      },
+      {
+        "kelime": "Bu",
+        "baslangic": 1.255,
+        "bitis": 1.631
+      },
+      {
+        "kelime": "da",
+        "baslangic": 1.631,
+        "bitis": 2.007
+      },
+      {
+        "kelime": "turşu.",
+        "baslangic": 2.007,
+        "bitis": 2.76
+      }
+    ]
+  },
+  {
+    "dosya": "voice/05-kaplar/06-anne.mp3",
+    "kim": "anne",
+    "metin": "Bir dahakine kaplarımı getir ama!",
+    "sure": 1.992,
+    "kelimeler": [
+      {
+        "kelime": "Bir",
+        "baslangic": 0.0,
+        "bitis": 0.241
+      },
+      {
+        "kelime": "dahakine",
+        "baslangic": 0.241,
+        "bitis": 0.785
+      },
+      {
+        "kelime": "kaplarımı",
+        "baslangic": 0.785,
+        "bitis": 1.388
+      },
+      {
+        "kelime": "getir",
+        "baslangic": 1.388,
+        "bitis": 1.751
+      },
+      {
+        "kelime": "ama!",
+        "baslangic": 1.751,
+        "bitis": 1.992
+      }
+    ]
+  },
+  {
+    "dosya": "voice/05-kaplar/07-anlatici.mp3",
+    "kim": "anlatici",
+    "metin": "Haftaya götürürüm.",
+    "sure": 1.176,
+    "kelimeler": [
+      {
+        "kelime": "Haftaya",
+        "baslangic": 0.0,
+        "bitis": 0.523
+      },
+      {
+        "kelime": "götürürüm.",
+        "baslangic": 0.523,
+        "bitis": 1.176
+      }
+    ]
+  }
+]
