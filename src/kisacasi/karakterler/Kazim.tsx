@@ -26,6 +26,16 @@ type Props = {
   readonly yon?: "sag" | "sol";
   /** Shifts the blink schedule (frames) so two characters do not blink together. */
   readonly kirpmaGecikmesi?: number;
+  /** Optional, 0..1: sleeping pose (eyes shut, body dropped onto folded legs). Default 0. */
+  readonly uyku?: number;
+  /** Optional, 0..1: how far the eyelids are pulled down (sleepy eyes). Default 0. */
+  readonly gozKapagi?: number;
+  /** Optional, 0..1: how far the antennae droop. Default 0. */
+  readonly antenDus?: number;
+  /** Optional: faint purple bags under the eyes. Default false. */
+  readonly yorgun?: boolean;
+  /** Optional: hide the tear of the "uzgun" expression. Default false. */
+  readonly gozyasiYok?: boolean;
 };
 
 const ZEMIN = 540;
@@ -40,6 +50,11 @@ export const Kazim: React.FC<Props> = ({
   yuruyor,
   yon = "sag",
   kirpmaGecikmesi = 0,
+  uyku = 0,
+  gozKapagi = 0,
+  antenDus = 0,
+  yorgun = false,
+  gozyasiYok = false,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -47,7 +62,7 @@ export const Kazim: React.FC<Props> = ({
   const t = (frame / fps) * Math.PI * 2 * 1.7; // leg cycle
   const bob = yuruyor ? Math.abs(Math.sin(t)) * 8 : 0;
   const b = nefes(frame, fps);
-  const goz = gozAcikligi(frame, fps, kirpmaGecikmesi);
+  const goz = uyku > 0.5 ? 0 : gozAcikligi(frame, fps, kirpmaGecikmesi) * (1 - gozKapagi * 0.6);
   const acik = agizAcikligi(frame, fps, konusuyor);
   const sallan = Math.sin((frame / fps) * Math.PI * 2 * 0.8);
   const kafaSalla = konusuyor ? Math.sin((frame / fps) * Math.PI * 2 * 1.9) * 2.5 : 0;
@@ -67,7 +82,7 @@ export const Kazim: React.FC<Props> = ({
     const s = yuruyor ? Math.sin(t + k.faz) : 0;
     const c = yuruyor ? Math.cos(t + k.faz) : 0;
     const fx = k.ayak + s * 24 + (k.uzak ? 10 : 0);
-    const fy = ZEMIN - Math.max(0, c) * 18 - (k.uzak ? 6 : 0) + bob;
+    const fy = ZEMIN - Math.max(0, c) * 18 - (k.uzak ? 6 : 0) + bob - uyku * 46;
     const hy = 440;
     const kx = (k.hx + fx) / 2 + (fx - k.hx) * 0.35;
     const ky = hy + 6;
@@ -89,7 +104,7 @@ export const Kazim: React.FC<Props> = ({
   const antenSarkma = ifade === "uzgun" ? 22 : ifade === "saskin" ? -10 : 0;
   const a = sallan * 5;
   const duzAnten = (
-    <g transform={dondur(a + antenSarkma * 0.8, 432, 245)}>
+    <g transform={dondur(a + antenSarkma * 0.8 + antenDus * 38, 432, 245)}>
       <path
         d={`M 432 245 Q 448 170 ${505} ${ifade === "uzgun" ? 168 : 140}`}
         stroke={MUREKKEP}
@@ -102,7 +117,7 @@ export const Kazim: React.FC<Props> = ({
   );
   // the always-bent one: goes up, then folds forward and down at a sharp knee
   const bukukAnten = (
-    <g transform={dondur(-a * 0.6 + antenSarkma * 0.5, 382, 240)}>
+    <g transform={dondur(-a * 0.6 + antenSarkma * 0.5 - antenDus * 62, 382, 240)}>
       <path
         d="M 382 240 L 368 168 L 326 188"
         stroke={MUREKKEP}
@@ -186,7 +201,7 @@ export const Kazim: React.FC<Props> = ({
       <g transform={yon === "sol" ? "translate(600 0) scale(-1 1)" : undefined}>
         {/* ground shadow */}
         <ellipse cx={295} cy={ZEMIN + 6} rx={200 - bob * 3} ry={14} fill={MUREKKEP} opacity={0.12} />
-        <g transform={`translate(0 ${-bob})`}>
+        <g transform={`translate(0 ${-bob + uyku * 46})`}>
           {kalcalar.filter((k) => k.uzak).map((k, i) => bacak(k, i))}
           {kalcalar.filter((k) => !k.uzak).map((k, i) => bacak(k, i + 3))}
 
@@ -250,6 +265,12 @@ export const Kazim: React.FC<Props> = ({
                 <ellipse cx={484} cy={364} rx={13} ry={9} fill="#FF8C7E" opacity={0.75} />
               </>
             ) : null}
+            {yorgun ? (
+              <g stroke="#7A52A8" strokeWidth={6} strokeLinecap="round" fill="none" opacity={0.75}>
+                <path d="M 392 350 Q 420 366 448 350" />
+                <path d="M 456 338 Q 476 350 496 338" />
+              </g>
+            ) : null}
             {gozCiz(420, 312, 34)}
             {gozCiz(474, 306, 27)}
             {kas(420, 266, 46, "sag")}
@@ -273,7 +294,7 @@ export const Kazim: React.FC<Props> = ({
                 <path d="M 342 284 Q 342 272 330 272" />
               </g>
             ) : null}
-            {ifade === "uzgun" ? (
+            {ifade === "uzgun" && !gozyasiYok ? (
               <path
                 d={`M 404 ${348 + damla * 70} q -11 18 0 24 q 11 -6 0 -24 Z`}
                 fill="#7CC7F2"

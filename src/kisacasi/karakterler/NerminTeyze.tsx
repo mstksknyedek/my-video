@@ -31,6 +31,19 @@ type Props = {
   readonly yon?: "sag" | "sol";
   /** Shifts the blink schedule (frames) so two characters do not blink together. */
   readonly kirpmaGecikmesi?: number;
+  /**
+   * What she holds instead of the phone. Default "telefon" (the series look, unchanged).
+   * With "kalem", "ceyrek" or "bilezik" the phone is gone and `telefonuYaklastiriyor` is ignored.
+   */
+  readonly elinde?: "telefon" | "kalem" | "ceyrek" | "bilezik" | null;
+  /** For the non-phone items: 0 = hand resting at chest height, 1 = raised high (down to -0.4 = lowered, e.g. into a bag). A boolean works too. */
+  readonly kolKaldir?: boolean | number;
+  /** The pen hand wobbles (writing). Only for `elinde="kalem"`. */
+  readonly yaziyor?: boolean;
+  /** "Doing sums": narrowed eyes looking up, one brow raised (no frown), fingers counting on her free hand. */
+  readonly hesapYapiyor?: boolean;
+  /** A sweat drop on her temple. */
+  readonly ter?: boolean;
 };
 
 const TEN = "#F6C29A";
@@ -54,6 +67,11 @@ export const NerminTeyze: React.FC<Props> = ({
   telefonuYaklastiriyor,
   yon = "sag",
   kirpmaGecikmesi = 0,
+  elinde = "telefon",
+  kolKaldir = false,
+  yaziyor = false,
+  hesapYapiyor = false,
+  ter = false,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -106,7 +124,7 @@ export const NerminTeyze: React.FC<Props> = ({
     uzgun: { dx: 5, dy: 8, r: 10 },
   }[ifade];
   const gozCiz = (cx: number, cy: number) => {
-    if (ifade === "mutlu" && p < 0.5) {
+    if (ifade === "mutlu" && p < 0.5 && !hesapYapiyor) {
       // beaming: closed, upturned eyes with laugh lines
       return (
         <g stroke={MUREKKEP} strokeLinecap="round" fill="none">
@@ -115,7 +133,7 @@ export const NerminTeyze: React.FC<Props> = ({
       );
     }
     const r = 21 * gozOlcek;
-    const ac = goz * kisma;
+    const ac = goz * kisma * (hesapYapiyor ? 0.42 : 1);
     if (ac < 0.2) {
       return (
         <path
@@ -132,7 +150,7 @@ export const NerminTeyze: React.FC<Props> = ({
         <ellipse cx={cx} cy={cy} rx={r} ry={r * ac} fill="white" stroke={MUREKKEP} strokeWidth={5} />
         <ellipse
           cx={cx + bebek.dx}
-          cy={cy + bebek.dy * ac}
+          cy={cy + (hesapYapiyor ? -7 : bebek.dy * ac)}
           rx={bebek.r}
           ry={bebek.r * ac}
           fill={MUREKKEP}
@@ -157,20 +175,34 @@ export const NerminTeyze: React.FC<Props> = ({
           ? `M ${x - h} ${y - 4} Q ${x} ${y - 6} ${x + h} ${y - 4 + k}`
           : `M ${x - h} ${y - 4 + k} Q ${x} ${y - 6} ${x + h} ${y - 4}`;
     } else {
-      d = `M ${x - h} ${y + 4 + yuk} Q ${x} ${y - 10 + yuk * 1.3} ${x + h} ${y + 4 + yuk}`;
+      const hy = hesapYapiyor ? (ic === "sol" ? -16 : 3) : 0; // one brow up, none lowered: no frown
+      d = `M ${x - h} ${y + 4 + yuk + hy} Q ${x} ${y - 10 + yuk * 1.3 + hy} ${x + h} ${y + 4 + yuk + hy}`;
     }
     return <path d={d} stroke={SAC_KOYU} strokeWidth={10} strokeLinecap="round" fill="none" />;
   };
 
-  const agiz = {
-    mutlu: { egri: 26, gen: 74 },
-    saskin: { egri: 0, gen: 58 },
-    sinirli: { egri: -10, gen: 54 },
-    uzgun: { egri: -18, gen: 56 },
-  }[ifade];
+  const agiz = hesapYapiyor
+    ? { egri: 6, gen: 46 }
+    : {
+        mutlu: { egri: 26, gen: 74 },
+        saskin: { egri: 0, gen: 58 },
+        sinirli: { egri: -10, gen: 54 },
+        uzgun: { egri: -18, gen: 56 },
+      }[ifade];
 
   const damla = (sn % 1.6) / 1.6;
-  const kolYolu = `M 470 610 Q ${560 - p * 40} ${500 - p * 30} ${bilekX} ${bilekY}`;
+  // ---- non-phone items (pen, quarter coin, bangle): the hand and arm follow `kolKaldir` ----
+  const telefonVar = elinde === "telefon";
+  const kk = typeof kolKaldir === "number" ? Math.max(-0.4, Math.min(1, kolKaldir)) : kolKaldir ? 1 : 0;
+  const elX = interpolate(kk, [0, 1], [430, 500]);
+  const elY =
+    interpolate(kk, [0, 1], [410, 190]) +
+    (elinde === "kalem" && yaziyor ? Math.sin(sn * Math.PI * 2 * 4) * 3 : 0) -
+    b * 2;
+  const kolYolu = telefonVar
+    ? `M 470 610 Q ${560 - p * 40} ${500 - p * 30} ${bilekX} ${bilekY}`
+    : `M 470 610 Q ${570 - kk * 40} ${520 - kk * 120} ${elX} ${elY + 30}`;
+  const sayi = 1 + (Math.floor(sn * 3.2) % 3); // fingers up on the counting hand
 
   return (
     <svg width={size} height={size} viewBox="0 0 600 600" style={{ overflow: "visible" }}>
@@ -233,7 +265,7 @@ export const NerminTeyze: React.FC<Props> = ({
           <circle cx={300} cy={280} r={128} fill={TEN} stroke={MUREKKEP} strokeWidth={KONTUR} />
           {/* phone light on the face, stronger as it comes closer */}
           <g clipPath={`url(#yuz-${kimlik})`}>
-            <circle cx={470 - p * 40} cy={270} r={120} fill={EKRAN_ISIGI} opacity={0.16 + p * 0.2} />
+            <circle cx={470 - p * 40} cy={270} r={120} fill={EKRAN_ISIGI} opacity={elinde === "telefon" ? 0.16 + p * 0.2 : 0} />
           </g>
           {/* hair cap with a side wave, scrunchie at the bun */}
           <path
@@ -298,6 +330,15 @@ export const NerminTeyze: React.FC<Props> = ({
             kalinlik={7}
           />
 
+          {ter ? (
+            <path
+              d={`M 206 ${236 + Math.sin(sn * 5) * 2} q -13 20 0 27 q 13 -7 0 -27 Z`}
+              fill="#7CC7F2"
+              stroke={MUREKKEP}
+              strokeWidth={4}
+            />
+          ) : null}
+
           {ifade === "sinirli" ? (
             <g stroke={KIRMIZI} strokeWidth={8} strokeLinecap="round" fill="none">
               <path d="M 176 196 Q 188 196 188 184" />
@@ -329,8 +370,80 @@ export const NerminTeyze: React.FC<Props> = ({
         <path d={kolYolu} stroke={MUREKKEP} strokeWidth={78} strokeLinecap="round" fill="none" />
         <path d={kolYolu} stroke={MAVI} strokeWidth={62} strokeLinecap="round" fill="none" />
 
+        {/* ---- free hand counting on its fingers ---- */}
+        {hesapYapiyor ? (
+          <g>
+            <path d="M 130 610 Q 40 560 96 440" stroke={MUREKKEP} strokeWidth={78} strokeLinecap="round" fill="none" />
+            <path d="M 130 610 Q 40 560 96 440" stroke={MAVI} strokeWidth={62} strokeLinecap="round" fill="none" />
+            {[0, 1, 2].map((i) => (
+              <line
+                key={i}
+                x1={72 + i * 24}
+                y1={414}
+                x2={72 + i * 24}
+                y2={i < sayi ? 366 : 394}
+                stroke={MUREKKEP}
+                strokeWidth={26}
+                strokeLinecap="round"
+              />
+            ))}
+            {[0, 1, 2].map((i) => (
+              <line
+                key={i}
+                x1={72 + i * 24}
+                y1={414}
+                x2={72 + i * 24}
+                y2={i < sayi ? 366 : 394}
+                stroke={TEN}
+                strokeWidth={14}
+                strokeLinecap="round"
+              />
+            ))}
+            <circle cx={96} cy={440} r={34} fill={TEN} stroke={MUREKKEP} strokeWidth={6} />
+          </g>
+        ) : null}
+
+        {/* ---- pen, quarter coin or bangle in her hand ---- */}
+        {!telefonVar && elinde ? (
+          <g transform={`translate(${elX} ${elY})`}>
+            {elinde === "kalem" ? (
+              <g transform="rotate(-38)">
+                <rect x={-9} y={-96} width={18} height={104} rx={8} fill={KIRMIZI} stroke={MUREKKEP} strokeWidth={5} />
+                <path d="M -9 8 L 0 34 L 9 8 Z" fill={MUREKKEP} />
+              </g>
+            ) : null}
+            {elinde === "ceyrek" ? (
+              <circle cx={0} cy={-62} r={50} fill={SARI} stroke={MUREKKEP} strokeWidth={6} />
+            ) : null}
+            {elinde === "bilezik" ? (
+              <g>
+                <circle cx={0} cy={-62} r={44} fill="none" stroke={MUREKKEP} strokeWidth={26} />
+                <circle cx={0} cy={-62} r={44} fill="none" stroke={SARI} strokeWidth={14} />
+                {[
+                  [-66, -112, 0],
+                  [64, -118, 7],
+                  [70, -50, 14],
+                ].map(([sx, sy, gec]) => {
+                  const s2 = 0.6 + 0.4 * Math.abs(Math.sin((frame + gec) * 0.45));
+                  return (
+                    <g key={sx} transform={`translate(${sx} ${sy}) scale(${s2})`} stroke={MUREKKEP} strokeWidth={5} strokeLinecap="round">
+                      <line x1={0} y1={-14} x2={0} y2={14} />
+                      <line x1={-14} y1={0} x2={14} y2={0} />
+                    </g>
+                  );
+                })}
+              </g>
+            ) : null}
+            <circle cx={0} cy={0} r={32} fill={TEN} stroke={MUREKKEP} strokeWidth={6} />
+            <path d="M -14 -12 Q 0 -22 14 -12" stroke={MUREKKEP} strokeWidth={4} strokeLinecap="round" fill="none" />
+          </g>
+        ) : null}
+
         {/* ---- phone, back towards us, with her hand around it ---- */}
-        <g transform={`translate(${tx} ${ty}) rotate(${tAci}) scale(${tOlcek})`}>
+        <g
+          transform={`translate(${tx} ${ty}) rotate(${tAci}) scale(${tOlcek})`}
+          opacity={telefonVar ? 1 : 0}
+        >
           <rect x={-50} y={-88} width={100} height={176} rx={20} fill={KIRMIZI} stroke={MUREKKEP} strokeWidth={KONTUR} />
           <rect x={-36} y={-74} width={34} height={40} rx={10} fill={MUREKKEP} />
           <circle cx={-19} cy={-63} r={6} fill="#5A5A5A" />
