@@ -1,5 +1,10 @@
 # 06 · Karınca Olarak Doğdun (tekil video, Böcek Dünyası; Kazım konuk)
 
+> **Genel Müdür notları (kural denetimi, 27.11.2026) — montajda uygulanacak:**
+> - Kaynak satırı güvenli alanın içine (y≈1300, altyazının üstü) alınır; y=1700 Shorts arayüzü altında kalabilir.
+> - Etiketlerde `kazim` ve `karınca olarak doğdun` kalır; `kiracı karınca` ve çocuk odaklı kelime eklenmez.
+> - Açıklama: "Uyku bilgisi gerçektir (tek laboratuvar kolonisinde ölçüldü); sahneler kurgudur." + kaynak satırı.
+
 > **Genel Müdür notu (27.11.2026):** Doğrulama düzeltmesi uygulandı: bilgi yalnızca ateş karıncası işçileri için kanıtlı (Cassill ve ark. 2009), bu yüzden punchline ve ekran yazısı "ateş karıncası" diyor.
 
 > **Bu video tek cümleyle:** Karınca olarak doğsaydın günde 250 kez uyurdun ama her uykun yaklaşık 1 dakika sürerdi; yani "beş dakika daha" diye bir şey olmazdı.

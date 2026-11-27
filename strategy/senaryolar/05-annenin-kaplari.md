@@ -1,5 +1,10 @@
 # 05 · Annenin Kapları Geri Dönmeli (tekil video, Türk annesi)
 
+> **Genel Müdür notları (kural denetimi, 27.11.2026) — montajda uygulanacak:**
+> - Başlık "Annenin kapları geri dönmez"; "tupper"/Tupperware hiçbir yerde (başlık, açıklama, etiket, altyazı, kapak, sabit yorum) geçmez.
+> - Sabit yorum: "Annenizin sizde unutulmuş kabı kaç tane? 😄" (özdeşleşme sorusu; "anneler hep…" genellemesi kurulmaz).
+> - Altyazı güvenli alanda kalsın (y≤1450); telefonda önizlenip okunurluk kontrol edilir.
+
 > **Bu video tek cümleyle:** Annene 7 boş kabını geri götürüyorsun; hepsini yemekle doldurup üstüne 2 kap daha ekliyor ve "Bir dahakine kaplarımı getir ama!" diye seni yolcu ediyor.
 
 Hazırlanma: 27 Kasım 2026 · Yazan: kanal-senarist · Durum: TASLAK (sırada kanal-retention, kanal-kural-denetcisi, sonra kanal sahibi onayı)

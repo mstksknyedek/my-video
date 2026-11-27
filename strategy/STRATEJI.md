@@ -86,9 +86,9 @@ Başlıklar 30 karakter civarında ve hashtag'siz; hashtag'ler yalnızca açıkl
 |---|---|---|---|---|---|---|
 | 1 | Pzt 7 Ara · 19:30 | Teyzeden 4:37'lik sesli mesaj | Nermin Teyze bir şey soracaktı. 4 dakika 37 saniye sürdü. | #kısacası #seslimesaj #mizah | sesli mesaj, aile grubu, teyze, nermin teyze | ✅ video hazır, onaylandı |
 | 2 | Çar 9 Ara · 12:30 | Sinek neden sofraya konar? 🪰 | Uğur Hoca anlatıyor: sinekler tadı ayaklarıyla da alır. | #kısacası #böcekler #bilgi | sinek, böcek bilgileri, ilginç bilgiler, uğur hoca | yazılıyor |
-| 3 | Cum 11 Ara · 20:30 | Annenin kapları geri dönmez | Annenin verdiği saklama kabı geri dönmezse ne olur? | #kısacası #türkannesi #mizah | türk annesi, saklama kabı, tupper, anne | sırada |
-| 4 | Cmt 12 Ara · 12:00 | Karınca olarak doğdun 🐜 | Bir karıncanın ilk günü: iş, yuva, şeker kırıntısı. | #kısacası #karınca #animasyon | karınca, böcek, karınca olarak doğdun, kazım | sırada |
-| 5 | Paz 13 Ara · 12:00 | Düğünde takı muhasebesi 💍 | Takı töreninde kim ne taktı, defter tutuluyor. | #kısacası #düğün #mizah | düğün, takı töreni, altın, düğün komik | sırada |
+| 3 | Cum 11 Ara · 20:30 | Annenin kapları geri dönmez | Annemin 7 kabını geri götürdüm. 9 kapla döndüm. | #kısacası #türkannesi #mizah | türk annesi, saklama kabı, yemek kabı, anne | sırada |
+| 4 | Cmt 12 Ara · 12:00 | Karınca olarak doğdun 🐜 | Ateş karıncası olsaydın günde yaklaşık 250 kez uyurdun. Kötü haber: her biri yaklaşık 1 dakika. (Uyku bilgisi gerçektir, tek laboratuvar kolonisinde ölçüldü; sahneler kurgudur. Kaynak: Cassill ve ark. 2009) | #kısacası #karınca #animasyon | karınca, böcek, karınca olarak doğdun, kazım | sırada |
+| 5 | Paz 13 Ara · 12:00 | Düğünde takı muhasebesi 💍 | Takı töreninde kim ne taktı, defter tutuluyor. | #kısacası #düğün #mizah | düğün, takı töreni, takı defteri, düğün komik, nermin teyze | sırada |
 | 6 | Pzt 14 Ara · 12:30 | Karınca ev arkadaşı arıyor | Kiracı Karınca Kazım ev arkadaşı arıyor ama şartlar biraz ağır. | #kısacası #kira #animasyon | kira, ev arkadaşı, kiracı karınca, kazım | yazılıyor |
 | 7 | Çar 16 Ara · 19:30 | Sepetteki ürünler konuşsa 🛒 | "İndirime girsin" diye sepette bıraktıkların ne düşünüyor? | #kısacası #indirim #alışveriş | sepet, indirim, internet alışverişi, konuşan eşyalar | sırada |
 | 8 | Cum 18 Ara · 20:30 | Arının ömürlük maaşı 🐝 | Uğur Hoca anlatıyor: bir arı bütün hayatında ne kadar bal yapar? | #kısacası #arı #bilgi | arı, bal, böcek bilgileri, uğur hoca | sırada |
@@ -162,6 +162,7 @@ Bu hedefler tahmindir; 20 video sonra kanalın kendi medyanına göre yeniden ya
 |---|---|---|
 | 2026-11-26 | Strateji v1: 5 sütun, 3 seri, ilk 30 gün haftada 5 video, A/B saat testi | 01, 03, 04 araştırma raporları |
 | 2026-11-26 | Seslendirme yapay zeka ile yapılacak; ilk 12 video listesi onaylandı | Kanal sahibinin kararı |
+| 2026-11-27 | 3., 4., 5. videolar onaylandı; kural denetimi ve doğrulama düzeltmeleri uygulandı (etiketlerden tupper ve altın çıktı, ateş karıncası, Sevim sahnesi kinsiz, konuklar dengeli, çeyrek çiziminde portre/tuğra yok). Üç videonun ortak iskeleti nedeniyle her birinde farklı bir görsel araç/kamera öğesi şart | Rapor: strategy/raporlar/2026-11-27-kanal-kural-denetcisi-05-07.md |
 | 2026-11-27 | Nermin Teyze serisinde her 3-4 bölümden birinde Nermin üstün gelir; "unuttum" punchline'ı arka arkaya kullanılmaz; açıklama/etiket/yorumda yaşlı, bunak, bunama, hafıza kaybı gibi kelimeler kullanılmaz | Kural denetimi: seri birikince "yaşlılar beceriksiz" okumasına kayma riski |
 | 2026-11-27 | 1. video "Günaydın çiçekleri" rafa kaldırıldı, yerine yeni Nermin Teyze hikayesi yazılıyor; senaristlere "tek cümle testi", açık punchline, en fazla 8 sahne / 18-25 sn kuralı eklendi. Nermin Teyze'nin sesi yaşlandırıldı (perde 0,817, tempo 0,93) | Kanal sahibi hikayeyi anlamadı; sesi daha yaşlı istedi |
 | 2026-11-26 | Uğur Hoca imzası "Kısacası millet… Ders bitti!" oldu; derslerde bir an yetişkin böcekler gösterilir, tahtada "Akşam Kursu" yazar. Kapanış ekranı yerine döngü + logo rozeti. "whatsapp" yalnızca tek bir etikette | Kural denetimi: "çocuklar" hitabı + sınıf, çocuklara özel sayılma riskini artırıyor; kapanış ekranı döngüyü bozuyor |

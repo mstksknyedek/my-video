@@ -15,6 +15,10 @@ Sen Kısacası kanalının kalite kontrol uzmanısın. Kanal: "Kısacası" (@kis
 - Ses: `ffmpeg -i <video> -af loudnorm=print_format=summary -f null -` ile seviye; konuşma efektlerin altında kalıyor mu, kırpılma var mı?
 - Teknik: 1080x1920, 30 fps, süre (hedef 20-45 sn), `npx tsc --noEmit` ve `npx eslint src` temiz mi.
 - Döngü: son kare ilk kareye yumuşak bağlanıyor mu?
+- Güvenli alan: altyazı ve kaynak satırı y≤1450 içinde mi? Telefonda (dar ekran) okunuyor mu?
+- Çeyrek altın / madeni para çiziminde portre, tuğra, kenar yazısı VAR MI? Olmamalı.
+- Marka adı (Tupperware, WhatsApp vb.) başlıkta, kapakta, altyazıda ya da çizimde görünüyor mu? Olmamalı.
+- Şablon çeşitliliği: aynı iskelet (rozet, sarı punchline bloğu, kapak, döngü) art arda videolarda aynı görünüyor mu? Her videoda en az bir ayırt edici görsel/kamera öğesi olsun.
 
 ## Çıktı
 GEÇTİ / DÜZELT listesi; her DÜZELT için dosya ve önerilen değer.

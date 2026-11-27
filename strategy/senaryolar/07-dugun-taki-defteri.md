@@ -1,5 +1,11 @@
 # 07 · Düğünde Takı Muhasebesi (Nermin Teyze konuk; düğün)
 
+> **Genel Müdür notları (kural denetimi, 27.11.2026) — montajda uygulanacak:**
+> - Konuk silüetleri kadın/erkek ve yaş karışık; **Kenan Amca da sahne 6'da küçük bir cep defteri çıkarır** ("defteri tutan teyze" okuması "herkes" okumasına dönsün).
+> - **Çeyrek çiziminde portre, tuğra, kenar yazısı ÇİZİLMEZ**; düz sarı yuvarlak. Bilezik de desensiz.
+> - `altın` etiketi kullanılmaz; açıklama/etikette "altın fiyatı", "gram", "yatırım" geçmez.
+> - Altyazı güvenli alanda kalsın (y≤1450); telefonda önizlenip okunurluk kontrol edilir.
+
 > **Bu video tek cümleyle:** Takı töreninde herkesin ne taktığını deftere yazan Nermin Teyze'nin takma sırası gelince, bütün salonun da defter çıkardığı ortaya çıkıyor: herkes defter tutuyor.
 
 Hazırlanma: 27 Kasım 2026 · Yazan: kanal-senarist · Durum: TASLAK (sırada kanal-retention, kanal-kural-denetcisi, sonra kanal sahibi onayı)
@@ -36,7 +42,7 @@ Hedef süre: **~23 sn** · **8 sahne** · Seslendirme toplamı **~32 kelime** (N
 | 1 | 0,0–3,0 | Salon; takı kuyruğu. Nermin defteri açar, kalemi çıtlatır, gözlüğünü düzeltir (`mutlu`, kararlı). | **Nermin Teyze:** Kim ne taktı, hepsini yazıyorum. | `DÜĞÜNDE TAKI DEFTERİ` | kalabalık uğultusu (alçak, sürekli) · `tik` (0,4, kalem) |
 | 2 | 3,0–6,2 | Sunucu sesiyle Kenan Amca kurdeleye bir **çeyrek** (sarı yuvarlak, düz desen) iğneler. Defter yakın planı: Nermin yazar `Kenan Amca – 1 çeyrek ✓`. | **Anlatıcı (sunucu):** Kenan Amca'dan bir çeyrek! · **Nermin Teyze:** Yazdım. | — | `tik` (4,6, iğne) · kalem cızırtısı (5,2) |
 | 3 | 6,2–10,0 | Sunucu: Sevim Teyze bir çeyrek takar. Nermin durur, gözlüğü burnuna kayar (`saskin`), defteri **hızla geri çevirir** (sayfalar uçuşur), eski sarı bir sayfada durur: `1996 – Sevim'in oğluna: BİZ YARIM`. | **Anlatıcı (sunucu):** Sevim Teyze'den bir çeyrek! · **Nermin Teyze:** Biz onun oğluna yarım takmıştık! | `1996: BİZ YARIM TAKMIŞTIK` | `hizli-sar` (7,4, sayfa çevirme) · `hit` hafif (8,6) |
-| 4 | 10,0–12,6 | Nermin kırmızı kalemle `Sevim` adının altını iki kez çizer, gözlerini kısar (`sinirli`, öfke işareti). | **Nermin Teyze:** Not ettim. | `SEVİM: NOT EDİLDİ` | kalem çizgisi ×2 (10,6 / 11,0) |
+| 4 | 10,0–12,6 | Nermin kırmızı kalemle `Sevim` adının altını iki kez çizer, gözlerini kısar, parmakla hesap yapar (kaşlar çatık DEĞİL, öfke işareti yok; kin değil "defter tutma" abartısı gülünür). | **Nermin Teyze:** Not ettim. | `SEVİM: KAYDEDİLDİ` | kalem çizgisi ×2 (10,6 / 11,0) |
 | 5 | 12,6–15,2 | Spot ışığı Nermin'e döner. Nermin gururla kalkar, çantasından bir **çeyrek** çıkarır, havaya kaldırır (`mutlu`); kuyruğa yürür. | **Anlatıcı (sunucu):** Sıra Nermin Teyze'de! | — | `riser` (13,0–15,2) |
 | 6 | 15,2–19,2 | **Ters dönüş:** kamera salona döner. Bütün konuklar aynı anda bir **defter** açar (40 defter "şrak"), kalemler çıtlar, hepsi Nermin'e bakar. En önde Sevim Teyze'nin en kalın defteri, kapağında `NERMİN`. Nermin donar (`saskin`, gözlük burnun ucunda). Replik biter bitmez **punchline yazısı** çarpar. | **Nermin Teyze:** Herkesin mi defteri var? | (17,4'ten itibaren, dev, sarı blok, iki satır) `HERKES` / `DEFTER TUTUYOR.` | defter açılış dalgası (15,4) · `tik` ×6 hızlı (15,8–16,4, kalemler) · `hit` (17,4, yazı çarpar) |
 | 7 | 19,2–22,2 | Nermin çeyreği hızla çantasına geri sokar, yerine bir **bilezik** çıkarır, gülümseyerek (biraz terleyerek) havaya kaldırır. Salondaki 40 kalem aynı anda yazar. | **Nermin Teyze:** Çeyrek değil… bilezik takıyorum! | `NERMİN: BİLEZİK ✓` | çanta fermuarı / `soft-whoosh` (19,6) · `success` (21,0) · kalem cızırtısı (çoklu, 21,4) |
@@ -94,7 +100,7 @@ NERMİN TEYZE: Çeyrek değil… bilezik takıyorum!
 
 **Nermin Teyze — `src/kisacasi/karakterler/NerminTeyze.tsx` (mevcut)**
 - Telefonsuz poz gerekiyor: **yeni prop önerisi `elinde`** (`"telefon" | "kalem" | "ceyrek" | "bilezik" | null`), varsayılan telefon (seri kimliği bozulmasın). Bu videoda kalem/çeyrek/bilezik.
-- Sahne 1-2: `mutlu`, oturur, kalemle yazma (kol ±6°, 4 Hz küçük titreşim). Sahne 3: `saskin` (gözlük kendiliğinden kayar). Sahne 4: `sinirli`. Sahne 5: ayağa kalkma (büst kadrajı 40 px yükselir) + `mutlu`. Sahne 6: `saskin`. Sahne 7: `mutlu` + şakakta tek **ter damlası** (yeni küçük işaret, gözyaşı rengi #7CC7F2).
+- Sahne 1-2: `mutlu`, oturur, kalemle yazma (kol ±6°, 4 Hz küçük titreşim). Sahne 3: `saskin` (gözlük kendiliğinden kayar). Sahne 4: hesap yapan ifade (gözler kısık, parmakla sayma; `sinirli` KULLANILMAZ). Sahne 5: ayağa kalkma (büst kadrajı 40 px yükselir) + `mutlu`. Sahne 6: `saskin`. Sahne 7: `mutlu` + şakakta tek **ter damlası** (yeni küçük işaret, gözyaşı rengi #7CC7F2).
 - Telefon kılıfındaki sarı çiçek tanıma işareti burada yok; yerine **defterin kapağına aynı sarı çiçek çıkartması** konur (seri bağı).
 
 **Yeni çizimler (kanal-karakter-animasyon)**
