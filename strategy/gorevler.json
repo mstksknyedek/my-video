@@ -69,35 +69,37 @@
       "baslik": "Video 6 'Karınca olarak doğdun' montajı",
       "ajan": "general-purpose",
       "brif": "strategy/gorevler/06-karinca-montaj.md",
-      "durum": "calisiyor",
+      "durum": "duraklatildi",
       "baslangic": "2026-11-27T19:12:00Z",
       "son_isaret": "2026-11-27T19:12:00Z",
       "beklenen_ciktilar": [
         "src/kisacasi/videolar/Video06KarincaDogdun.tsx",
         "out/video06-karinca.mp4"
       ],
-      "sonra": "tsc + eslint, kareleri incele, commit + push, MP4'ü kanal sahibine ilet."
+      "sonra": "tsc + eslint, kareleri incele, commit + push, MP4'ü kanal sahibine ilet.",
+      "not": "Kanal sahibi 27.11.2026'da çalışmaları duraklattı. Yarım kod 'wip/video06-07' dalında (incelenmedi, derlenmeyebilir). Devam: o daldan dosyaları al (git checkout wip/video06-07 -- src public sounds), kalan işi tamamla."
     },
     {
       "id": "video07-montaj",
       "baslik": "Video 7 'Düğünde takı muhasebesi' montajı",
       "ajan": "general-purpose",
       "brif": "strategy/gorevler/07-dugun-montaj.md",
-      "durum": "calisiyor",
+      "durum": "duraklatildi",
       "baslangic": "2026-11-27T19:12:00Z",
       "son_isaret": "2026-11-27T19:12:00Z",
       "beklenen_ciktilar": [
         "src/kisacasi/videolar/Video07DugunTakiDefteri.tsx",
         "out/video07-dugun.mp4"
       ],
-      "sonra": "tsc + eslint, kareleri incele, commit + push, MP4'ü kanal sahibine ilet."
+      "sonra": "tsc + eslint, kareleri incele, commit + push, MP4'ü kanal sahibine ilet.",
+      "not": "Kanal sahibi 27.11.2026'da çalışmaları duraklattı. Yarım kod 'wip/video06-07' dalında (incelenmedi, derlenmeyebilir). Devam: o daldan dosyaları al (git checkout wip/video06-07 -- src public sounds), kalan işi tamamla."
     },
     {
       "id": "video05-montaj",
       "baslik": "Video 3 'Annenin kapları geri dönmez' montajı (Anne karakteri dahil)",
       "ajan": "general-purpose",
       "brif": "strategy/gorevler/05-kaplar-montaj.md",
-      "durum": "bekliyor",
+      "durum": "duraklatildi",
       "baslangic": "2026-11-27T19:25:00Z",
       "son_isaret": "2026-11-27T19:25:00Z",
       "beklenen_ciktilar": [
@@ -105,8 +107,22 @@
         "src/kisacasi/videolar/Video05AnneninKaplari.tsx",
         "out/video05-kaplar.mp4"
       ],
-      "sonra": "Aynı anda en fazla 2 ağır iş kuralı: video06-montaj veya video07-montaj biterse başlat. Bitince tsc + eslint, kareleri incele, commit + push, MP4'ü kanal sahibine ilet."
+      "sonra": "Aynı anda en fazla 2 ağır iş kuralı: video06-montaj veya video07-montaj biterse başlat. Bitince tsc + eslint, kareleri incele, commit + push, MP4'ü kanal sahibine ilet.",
+      "not": "Başlamadı; kanal sahibi çalışmaları duraklattı."
     }
   ],
-  "tetikleyici_kayitlari": []
+  "tetikleyici_kayitlari": [],
+  "duraklatma": {
+    "durum": "DURAKLATILDI",
+    "tarih": "2026-11-27T19:05:00Z",
+    "neden": "Kanal sahibi, kredi süresi başka projeye gerektiği için ara verdi.",
+    "kapatilan_zamanlanmis_gorevler": {
+      "trig_01HT67y6M5eEsicVV5a6a2nq": "Günlük trend taraması (05:17 TR)",
+      "trig_01V4vLPKjgo8sW4C5po8aJsZ": "Yedek tarama, öğle (11:47 TR)",
+      "trig_01FXWCVrWKZ1c3omNcJWNtZJ": "Yedek tarama, akşam (15:47 TR)",
+      "trig_01VCssrZ1jX6prCJrPbJQsRn": "Nöbetçi, saat başı",
+      "trig_01JSZNmj8oLYoHuruqWYJR6R": "Haftalık Genel Müdür raporu (Pzt 08:43 TR)"
+    },
+    "devam_icin": "Kanal sahibi 'devam et' derse: 1) yukarıdaki 5 zamanlanmış görevi update_trigger ile enabled=true yap; 2) duraklatildi görevleri calisiyor/bekliyor yap ve sırayla başlat (aynı anda en fazla 2 ağır iş); 3) strategy/DURUM.md'yi güncelle."
+  }
 }
